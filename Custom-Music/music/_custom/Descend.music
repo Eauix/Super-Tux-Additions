@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Descend.ogg")
+  (loop-begin 52.469)
+  (loop-at    227.010)
+)

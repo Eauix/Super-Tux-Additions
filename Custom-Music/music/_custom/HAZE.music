@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Haze.ogg")
+  (loop-begin 111.208)
+  (loop-at    212.867)
+)

@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Untethered.ogg")
+  (loop-begin 0.0)
+  (loop-at    347.414)
+)

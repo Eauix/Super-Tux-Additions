@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Synchronize.ogg")
+  (loop-begin 27.444)
+  (loop-at    193.727)
+)

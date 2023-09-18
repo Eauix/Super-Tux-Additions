@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Resting_State_7.ogg")
+  (loop-begin 0.200)
+  (loop-at    81.815)
+)

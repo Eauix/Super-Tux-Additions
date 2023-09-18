@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Europa.ogg")
+  (loop-begin 0.217)
+  (loop-at    334.434)
+)

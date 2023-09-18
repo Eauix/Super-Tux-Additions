@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Atlas.ogg")
+  (loop-begin 42.859)
+  (loop-at    176.193)
+)

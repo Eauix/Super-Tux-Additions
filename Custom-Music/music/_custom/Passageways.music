@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Passageways.ogg")
+  (loop-begin 34.930)
+  (loop-at    229.145)
+)

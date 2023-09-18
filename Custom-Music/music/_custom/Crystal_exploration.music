@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Crystal_exploration.ogg")
+  (loop-begin 1.118)
+  (loop-at    173.106)
+)

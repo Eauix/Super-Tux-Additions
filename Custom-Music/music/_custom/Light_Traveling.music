@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Light_Traveling.ogg")
+  (loop-begin 0.055)
+  (loop-at    187.554)
+)

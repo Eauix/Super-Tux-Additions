@@ -1,0 +1,5 @@
+(supertux-music
+  (file "8-25-17.ogg")
+  (loop-begin 17.601)
+  (loop-at    157.207)
+)

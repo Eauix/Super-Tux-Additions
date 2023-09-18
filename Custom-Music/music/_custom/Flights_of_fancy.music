@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Flights_of_fancy.ogg")
+  (loop-begin 92.893)
+  (loop-at    225.759)
+)

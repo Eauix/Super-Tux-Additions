@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Deeper.ogg")
+  (loop-begin 56.808)
+  (loop-at    248.800)
+)
