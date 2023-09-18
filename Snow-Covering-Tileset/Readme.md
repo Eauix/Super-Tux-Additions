@@ -2,7 +2,7 @@
 
 ## Changelog:
 
-* Added water gradient tiles along an invisible water tile.
+* Added water gradient tiles along an invisible water tile. <br> ![water gradient](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/better_waterfall_by_alzter_and_eauix/wgr_e.png)
 
 * Renamed the waterfall tilegroup to "Better Water".
 
@@ -18,25 +18,23 @@
 
 * Added snow walljump merging tiles.
 
-* Added an invisible walljump tile.
+* Added an invisible walljump tile. <br> ![walljump tile](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/snowcovering_by_eauix/auxiliary/pure_snow_v08_iwj.png)
 
-* Added auxiliary tiles that serve the purpose of helping you find the high and shaded snow tile variants using autotiles.
+* Added autotiles to the "ground hole" tiles along auxiliary tiles to fill the empty spaces, which are only visible in the editor.
+
+* Added auxiliary tiles that serve the purpose of helping you find the high and shaded snow tile variants using autotiles. <br> ![auxiliary tiles](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/snowcovering_by_eauix/auxiliary/pure_snow_v08_aux.png)
 
 * Moved the files to the "Appdata/Roaming/SuperTux" folder for it not to interfere with the game data files.
 
 * Renamed the main tilegroup to "Packed Snow".
 
-* Added a Bonus Block with the healing item for the health bar script pack.
-  - Be aware that this will only work properly if you have the Health Bar installed as well.
+* Added a Bonus Block with the healing item for the health bar script pack. <br> ![heal bonus block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-heal.png) <br> <sup>- Be aware that this will only work properly if you have the Health Bar installed as well.</sup>
 
 * Made a great rearrangement of all the main tilegroups, including "Sonw", "Snow Background", "Forest", "Forest Background", "Corrupted Forest" and "Corrupted Background". Made tiles often required easier to find.
 
-* Added autotiles to the "ground hole" tiles along auxiliary tiles to fill the empty spaces, which are only visible in the editor.
-
 * Added the the Weak Tiles and Unstable Tiles as... well, **tiles!**
 
-* Added the Silver Bonus Blocks, a Quality of Life feature. <br> ![silver block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silver-0.png) ![5 coins block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5coins.png) ![5 fire block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5fire.png) ![5 ice block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5ice.png) ![5 air block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5air.png) ![5 earth block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5earth.png) ![stable 1up block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_1up.png) ![stable star block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_star.png)
-  - For them to work properly, you must import the "bonus_util.nut" into the sector init script. This will automatically import the "health_util.nut" file as well, since one of the bonus blocks has the healing item.
+* Added the Silver Bonus Blocks, a Quality of Life feature. <br> ![platinum coin](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000000.png) ![silver block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silver-0.png) ![5 coins block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5coins.png) ![5 fire block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5fire.png) ![5 ice block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5ice.png) ![5 air block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5air.png) ![5 earth block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5earth.png) ![stable 1up block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_1up.png) ![stable star block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_star.png) <br> <sup>- For them to work properly, you must import the "bonus_util.nut" into the sector init script. This will automatically import the "health_util.nut" file as well, since one of the bonus blocks has the healing item. </sup>
 
 ## Known issues I might not be able to fix:
 
@@ -52,6 +50,6 @@
 
 * Alzter
 
-  - for creating the images used in the Waterfall tiles.
+  - for creating the images used in the Waterfall tiles. <br> ![waterfall tiles](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/better_waterfall_by_alzter_and_eauix/awf1.png)
 
 
