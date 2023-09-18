@@ -1,0 +1,24 @@
+(supertux-sprite
+      (action 
+          (name "default")
+          (fps 15.0)
+          (images 
+		"platinum_coin_000000.png"
+		"platinum_coin_000001.png"
+		"platinum_coin_000002.png"
+		"platinum_coin_000003.png"
+		"platinum_coin_000004.png"
+		"platinum_coin_000005.png"
+		"platinum_coin_000006.png"
+		"platinum_coin_000007.png"
+		"platinum_coin_000008.png"
+		"platinum_coin_000009.png"
+		"platinum_coin_000010.png"
+		"platinum_coin_000011.png"
+		"platinum_coin_000012.png"
+		"platinum_coin_000013.png"
+		"platinum_coin_000014.png"
+		"platinum_coin_000015.png"
+	  )
+      )
+)

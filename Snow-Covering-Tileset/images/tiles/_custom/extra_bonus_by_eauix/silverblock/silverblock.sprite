@@ -1,0 +1,22 @@
+(supertux-sprite
+      (action
+         (fps 15)
+         (name "normal")
+         (images "silver-0.png"
+                 "silver-1.png"
+                 "silver-2.png"
+                 "silver-3.png"
+                 "silver-4.png"
+                 "silver-2.png"
+                 "silver-1.png"
+                 "silver-0.png"
+                 "silver-0.png"
+                 "silver-0.png"
+                 ))
+      (action
+         (name "empty")
+         (surfaces
+          (surface
+           (diffuse-texture (file "silver_empty.png"))
+           (displacement-texture (file "displacement.png")))))
+)

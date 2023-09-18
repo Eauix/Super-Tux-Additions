@@ -1,0 +1,43 @@
+(supertux-sprite
+      (action 
+          (name "default")
+          (fps 60.0)
+          (hitbox 80 48 0 0)
+          (loops 1)
+          (images 
+		"5coins_000000.png"
+		"5coins_000001.png"
+		"5coins_000002.png"
+		"5coins_000003.png"
+		"5coins_000004.png"
+		"5coins_000005.png"
+		"5coins_000006.png"
+		"5coins_000007.png"
+		"5coins_000008.png"
+		"5coins_000009.png"
+		"5coins_000010.png"
+		"5coins_000011.png"
+		"5coins_000012.png"
+		"5coins_000013.png"
+		"5coins_000014.png"
+		"5coins_000015.png"
+		"5coins_000016.png"
+		"5coins_000017.png"
+		"5coins_000018.png"
+		"5coins_000019.png"
+		"5coins_000020.png"
+		"5coins_000021.png"
+		"5coins_000022.png"
+		"5coins_000023.png"
+		"5coins_000024.png"
+		"5coins_000025.png"
+		"5coins_000026.png"
+		"5coins_000027.png"
+		"5coins_000028.png"
+		"5coins_000029.png"
+		"5coins_000030.png"
+		"5coins_000031.png"
+		"5coins_000032.png"
+	  )
+      )
+)
