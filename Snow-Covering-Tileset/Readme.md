@@ -46,6 +46,8 @@
 
 * Some sound effects coming from custom powerups are really loud. This is an issue with the "play_sound()" function, which can't adjust the sound volume or pitch, nor modulate it based on the game audio settings.
 
+* When you hit the 5-coins silver block for the first time after opening the game, the game will freeze for a few miliseconds, as it will take some time to load the effect sprite.
+
 ## Credits:
 
 * Alzter
