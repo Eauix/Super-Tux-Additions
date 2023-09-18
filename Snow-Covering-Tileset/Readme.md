@@ -26,7 +26,7 @@
 
 * Renamed the main tilegroup to "Packed Snow".
 
-* Added a Bonus Block with the healing item for the health bar script pack.  
+* Added a Bonus Block with the healing item for the health bar script pack.
   - Be aware that this will only work properly if you have the Health Bar installed as well.
 
 * Made a great rearrangement of all the main tilegroups, including "Sonw", "Snow Background", "Forest", "Forest Background", "Corrupted Forest" and "Corrupted Background". Made tiles often required easier to find.
@@ -35,7 +35,7 @@
 
 * Added the the Weak Tiles and Unstable Tiles as... well, **tiles!**
 
-* Added the Silver Bonus Blocks, a Quality of Life feature.
+* Added the Silver Bonus Blocks, a Quality of Life feature. <br> ![silver block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silver-0.png) ![5 coins block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5coins.png) ![5 fire block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5fire.png) ![5 ice block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5ice.png) ![5 air block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5air.png) ![5 earth block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5earth.png) ![stable 1up block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_1up.png) ![stable star block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_star.png)
   - For them to work properly, you must import the "bonus_util.nut" into the sector init script. This will automatically import the "health_util.nut" file as well, since one of the bonus blocks has the healing item.
 
 ## Known issues I might not be able to fix:
