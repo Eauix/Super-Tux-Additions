@@ -1,42 +1,52 @@
-• Curtis Schweitzer (Starbound OST)
-	- Starbound Forest
-	- Crystal Exploration
-	- Forsaken Grotto
-	- Europa
-	- Atlas
+* **Curtis Schweitzer** *(Starbound OST)*
+  - Starbound Forest
+  - Crystal Exploration
+  - Forsaken Grotto
+  - Europa
+  - Atlas
 
-• Jonathan Geer (Core Keeper OST)
+
+* **Jonathan Geer** *(Core Keeper OST)*
 	- Light Traveling
 
-• FRACTAL MAN
+
+* **FRACTAL MAN**
 	- The Glow of All Things
 	- Passageways
 	- Flights of Fancy
 
-• Flávio La Barre
+
+* **Flávio La Barre**
 	- HAZE
 
-• DavZ
+
+* **DavZ**
 	- Untethered
 
-• Rameses B
+
+* **Rameses B**
 	- Deeper
 
-• Sinc-X
+
+* **Sinc-X**
 	- VLDC9 Title Theme
 
-• Euan Ellis
+
+* **Euan Ellis**
 	- M O O N W A L K E R 
 
-• HOME
+
+* **HOME**
 	- Resting State 7
 	- Mind
 	- Resting State 12
 	- Resting State 32
 	- Synchronize
 
-• Emil Rottmayer
+
+* **Emil Rottmayer**
 	- Descend
 
-• Yuutsu "憂鬱"
+
+* **Yuutsu "憂鬱"**
 	- 8/25/17
