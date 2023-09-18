@@ -1,5 +1,5 @@
 # Super-Tux-Additions
-Here you'll find everything I created or added as custom assets for Super Tux, like levels, tilesets, scripts addons, etc.
+Here you'll find everything I created or added as custom assets for Super Tux, like tilesets, scripts, levels or addons.
 
 ## Installation Guide for windows:
 * Download this repository as a .zip file
