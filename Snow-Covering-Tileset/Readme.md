@@ -1,7 +1,5 @@
 # Snow Covering Tileset v8.0
 
-============================================================
-
 ## Changelog:
 
 * Added water gradient tiles along an invisible water tile.
@@ -28,7 +26,7 @@
 
 * Renamed the main tilegroup to "Packed Snow".
 
-* Added a Bonus Block with the healing item for the health bar script pack.
+* Added a Bonus Block with the healing item for the health bar script pack.  
   - Be aware that this will only work properly if you have the Health Bar installed as well.
 
 * Made a great rearrangement of all the main tilegroups, including "Sonw", "Snow Background", "Forest", "Forest Background", "Corrupted Forest" and "Corrupted Background". Made tiles often required easier to find.
@@ -40,8 +38,6 @@
 * Added the Silver Bonus Blocks, a Quality of Life feature.
   - For them to work properly, you must import the "bonus_util.nut" into the sector init script. This will automatically import the "health_util.nut" file as well, since one of the bonus blocks has the healing item.
 
-============================================================
-
 ## Known issues I might not be able to fix:
 
 * 2 of the high snow tile variants aren't accessible via the auxiliary tiles, but you probably won't need them at all.
@@ -52,9 +48,10 @@
 
 * Some sound effects coming from custom powerups are really loud. This is an issue with the "play_sound()" function, which can't adjust the sound volume or pitch, nor modulate it based on the game audio settings.
 
-============================================================
-
 ## Credits:
 
 * Alzter
+
   - for creating the images used in the Waterfall tiles.
+
+
