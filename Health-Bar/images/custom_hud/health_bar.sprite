@@ -1,0 +1,26 @@
+(supertux-sprite
+      (action
+        (name "h5")
+        (images "hb_5.png")
+      )
+      (action
+        (name "h4")
+        (images "hb_4.png")
+      )
+      (action
+        (name "h3")
+        (images "hb_3.png")
+      )
+      (action
+        (name "h2")
+        (images "hb_2.png")
+      )
+      (action
+        (name "h1")
+        (images "hb_1.png")
+      )
+      (action
+        (name "h0")
+        (images "hb_0.png")
+      )
+)

@@ -1,0 +1,61 @@
+(supertux-sprite
+      (action
+        (name "normal")
+        (images "hi_normal.png")
+      )
+      (action
+        (name "hurt")
+        (images "hi_damage.png")
+      )
+      (action
+        (name "heal")
+        (images "hi_heal.png")
+      )
+      (action
+        (name "dead")
+        (images "hi_death.png")
+      )
+      (action
+        (name "powerup")
+        (images 
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f6.png"
+		"hi_golden_f1.png"
+		"hi_golden_f1.png"
+		"hi_golden_f2.png"
+		"hi_golden_f3.png"
+		"hi_golden_f4.png"
+		"hi_golden_f5.png"
+		"hi_golden_f5.png"
+	)
+	(fps 30)
+      )
+)

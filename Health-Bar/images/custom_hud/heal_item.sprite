@@ -1,0 +1,26 @@
+(supertux-sprite
+      (action
+        (name "default")
+	(fps 30.0)
+        (images 
+
+	"hp_f01.png"
+	"hp_f02.png"
+	"hp_f03.png"
+	"hp_f04.png"
+	"hp_f05.png"
+	"hp_f06.png"
+	"hp_f07.png"
+	"hp_f08.png"
+	"hp_f09.png"
+	"hp_f10.png"
+	"hp_f11.png"
+
+	"hp_f08.png"
+
+	"hp_f05.png"
+
+	"hp_f02.png"
+	)
+      )
+)
