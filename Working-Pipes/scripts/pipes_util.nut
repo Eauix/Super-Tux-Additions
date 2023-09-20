@@ -3,22 +3,23 @@
 //
 //==============================================================================================
 //
-//	Here you will find two different functions that must be written in the
+//	Here you will find many different functions that must be written in the
 //	"hit script" from the scripted object that you will place on the pipe
-//	you want to make functional.
+//	you want to make functional, or inside script triggers depending on how it.
+//	has to be set up.
 //
 //	The scripted object must be solid and have physics disabled, 
 //	it may or not be visible, and must be placed on the middle of the
 //	top 2 tiles of the pipe. The pipe must be on a tilemap with Z > 50.
 //
 //	If the pipe direction is other than entering down and exiting up, the exit functions will
-//  need to be written in a script trigger that is touching the desired spawnpoint.
-//  The script trigger MUST NOT be in front of the pipe, you can place the spawnpoint and the
-//  trigger somewhere else and mention the scripted object of the pipe, so Tux will come out
-//  of the pipe even if he doesn't directly spawn on the pipe.
+//	need to be written in a script trigger that is touching the desired spawnpoint.
+//	The script trigger MUST NOT be in front of the pipe, you can place the spawnpoint and the
+//	trigger somewhere else and mention the scripted object of the pipe, so Tux will come out
+//	of the pipe even if he doesn't directly spawn on the pipe.
 //
 //	To use this file, you have to import it in every sector of the level.
-//	Example: <   import("levels/my_world/pipes_util.nut");   >
+//	Example: <   import("scripts/pipes_util.nut");   >
 //
 //==============================================================================================
 //
@@ -32,24 +33,24 @@
 //	only happen if he has entered a pipe before.
 //
 //	<   enter_pipe(object_name, "destination_sector", "destination_spawnpoint");   >
-//  -
+//	-
 //	This will make Tux do an animation going inside the pipe while the screen
 //	fades out. This will only happen if you press [DOWN] while touching the
 //	scripted object. Then he will teleport to the destination spawnpoint. You want
-//  the destination waypoint to be right above a scripted object with exit_pipe,
+//	the destination waypoint to be right above a scripted object with exit_pipe,
 //	otherwise the screen might stay black and not fade in again.
 //
 //	<   twoway_pipe(object_name, "destination_sector", "destination_spawnpoint");   >
-//  -
-//  This is basically the 2 previous functions combined into one.
+//	-
+//	This is basically the 2 previous functions combined into one.
 //
 //	<   exit_pipe_l(object_name);   >
 //	<   exit_pipe_r(object_name);   >
-//  <   exit_pipe_d(object_name);   >
-//  -
-//  These will make Tux do animations coming out of the pipe in different directions,
-//  those being Left, Right and Down, respectively. These functions above will need
-//  separate script trigger to be activated, as Tux is only able to "step" on a scripted
+//	<   exit_pipe_d(object_name);   >
+//	-
+//	These will make Tux do animations coming out of the pipe in different directions,
+//	those being Left, Right and Down, respectively. These functions above will need
+//	separate script trigger to be activated, as Tux is only able to "step" on a scripted
 //	object that is underneath him.
 //
 //	<   enter_pipe_l(object_name, "destination_sector", "destination_spawnpoint");   >
@@ -57,14 +58,14 @@
 //	<   enter_pipe_u(object_name, "destination_sector", "destination_spawnpoint");   >
 //	-
 //	These will make Tux do animations going inside the pipe depending on which key
-//  must be held while touching the scripted object, those being [Left], [Right]
-//  and [Up], respectively.
+//	must be held while touching the scripted object, those being [Left], [Right]
+//	and [Up], respectively.
 //
-//  <   prevent();   >
-//  -
+//	<   prevent();   >
+//	-
 //	This function should be wrwitten right after the import function, it will prevent
 //	you from becoming softlocked in a black screen if there is no proper exit to the
-//  pipe you entered.
+//	pipe you entered.
 //
 //==============================================================================================
 //	
@@ -76,8 +77,8 @@
 //	Example: <   exit_pipe(pipe1); enter_pipe(pipe1, "main", "destination1"   >
 //
 // 	Alternatively, you can another the twoway_pipe(...) function.
-//  Be aware that this functions only works for the default pipe directions
-//  (entering down and exiting up).
+//	Be aware that this functions only works for the default pipe directions
+//	(entering down and exiting up).
 //
 //==============================================================================================
 
