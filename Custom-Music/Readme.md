@@ -2,7 +2,7 @@
 
 * **Curtis Schweitzer** *(Starbound OST)*
   - Starbound Forest
-  - Crystal Exploration
+  - Crystal Exploration 1
   - Forsaken Grotto
   - Europa
   - Atlas
