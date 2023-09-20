@@ -1234,7 +1234,7 @@
   )
 
   (tilegroup
-    (name (_ "Block + Bonus"))
+    (name (_ "* Block + Bonus *"))
     (tiles
 	  27   28   29     47
 	  48   50   49    211
