@@ -45,24 +45,17 @@ hit_5coins <- function(){
 	}
 }
 
+heal_alt <- function(){
+	Tux.add_bonus("grow");
+	play_sound("sounds/hop.ogg");
+	play_sound("sounds/grow.ogg");
+}
+
 //add_star <- function(){
 //	play_sound("sounds/invincible_start");
 //}
 
 display("[DEBUG] Extra Bonus Functions loaded successfully!");
-
-try{
-	import("scripts/health_util.nut");
-}catch(e){
-	display("[DEBUG] Warning! Health bar is not installed.");
-
-	heal <- function(amount){
-		
-		amount = 1;
-		Tux.add_bonus("grow");
-		play_sound("sounds/grow.ogg");
-	}
-}
 
 health_compatibility <- function(){
 	try{
