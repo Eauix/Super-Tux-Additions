@@ -6179,7 +6179,7 @@
     (object-data "
 	
       (custom-contents
-         (powerup           (script \"heal(1);\")
+         (powerup           (script \"try{heal(1);}catch(e){heal_alt();}\")
            (sprite \"images/custom_hud/heal_item.sprite\")
 		)
       )
