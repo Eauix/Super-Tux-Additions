@@ -1,11 +1,11 @@
 
 // ==== HEALTH BAR'S POSITION ON SCREEN (CAN BE CHANGED BY SCRIPTING) ==========
 
-// original barposx: -120
+// original barposx: -124
 // original barposy: 10
 // original baranch: ANCHOR_TOP_RIGHT
 
-Level.barposx <- -120;
+Level.barposx <- -124;
 Level.barposy <- 10;
 Level.baranch <- ANCHOR_TOP_RIGHT;
 
