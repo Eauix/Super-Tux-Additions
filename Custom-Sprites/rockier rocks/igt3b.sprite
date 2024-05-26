@@ -1,0 +1,7 @@
+(supertux-sprite
+  (action
+    (name "normal")
+    (hitbox 0 32 32 32)
+    (images "igt3b.png")
+  )
+)
