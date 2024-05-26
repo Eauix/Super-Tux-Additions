@@ -1,5 +1,8 @@
 # Custom Music Credits
 
+* **HOYO-MIX / Sumes Music**
+  - Saurian Wanderings (Extended Cover)
+
 * **Curtis Schweitzer** *(Starbound OST)*
   - Starbound Forest
   - Crystal Exploration 1
