@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Saurian_Wanderings.ogg")
+  (loop-begin 43.150)
+  (loop-at    151.025)
+)
