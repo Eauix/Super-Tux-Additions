@@ -1,3 +1,4 @@
+# WARNING, THIS TILESET IS CURRENTLY BROKEN
 # Snow Covering Tileset v8.0
 
 ## Changelog:
