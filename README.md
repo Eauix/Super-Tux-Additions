@@ -1,3 +1,6 @@
+# Warning:
+Due to tile deprecations in the nightly builds changing lots of their IDs, the snow covering tileset is currently pretty much broken. I mean, not the snow tiles, but all the tiles other than my custom tiles will be broken when you access them whilst using the snow covering tileset I will fix it and optimize its proprieties soon. Use them at your own risk.
+
 # Super-Tux-Additions
 Here you'll find everything I created or added as custom assets for Super Tux, like tilesets, scripts, levels or addons.
 
