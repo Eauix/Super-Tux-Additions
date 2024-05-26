@@ -1,4 +1,5 @@
-# WARNING, THIS TILESET IS CURRENTLY BROKEN
+# Warning:
+## Due to tile deprecations in the nightly builds changing lots of their IDs, the snow covering tileset is currently pretty much broken. I mean, not the snow tiles, but all the tiles other than my custom tiles will be broken when you access them whilst using the snow covering tileset. I will soon fix it and optimize its proprieties. Use them at your own risk.
 # Snow Covering Tileset v8.0
 
 ## Changelog:
