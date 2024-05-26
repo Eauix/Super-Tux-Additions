@@ -1,6 +1,6 @@
 # Custom Music Credits
 
-* **HOYO-MIX / Sumes Music**
+* **HOYO-MIX *(Genshin Impact OST)* / Sumes Music**
   - Saurian Wanderings (Extended Cover)
 
 * **Curtis Schweitzer** *(Starbound OST)*
