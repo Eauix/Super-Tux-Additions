@@ -33,7 +33,7 @@ hicon <- FloatingImage("images/custom_hud/heart_icon.sprite");
 hicon.set_anchor_point(Level.baranch);
 hicon.set_visible(false);
 hicon.set_pos(Level.barposx, Level.barposy);
-hicon.set_action("h5");
+hicon.set_action("normal");
 hicon.set_layer(500);
 
 if(!("sfb" in Level)){
