@@ -1,7 +1,22 @@
-# Warning:
-## Due to tile deprecations in the nightly builds changing lots of their IDs, the snow covering tileset is currently pretty much broken. I mean, not the snow tiles, but all the tiles other than my custom tiles will be broken when you access them whilst using the snow covering tileset. I will soon fix it and optimize its proprieties. Use them at your own risk.
-# Snow Covering Tileset v8.0
+# Snow Covering Tileset v8.1
+## Changelog:
 
+* Fixed the broken tiles that had their IDs changed during deprecation.
+
+* Optimized the strf file by making so it imports the default game tiles along the custom ones, instead of defining the default ones inside itself (the tiles should no longer get broken as the game updates).
+
+* Removed the default tile rearrangement because they are no longer defined within this strf file.
+
+* Moved the autotiles file into the tileset graphics folder, as it doesn't need to be accessed via the editor.
+
+* Added a version of the strf that doesn't import the default game tiles (called "noi", for "no import"), so it can be imported along other custom tilesets.
+
+* Added a tilegroup for custom bonus tiles and one for auxiliary tiles, as they can no longer be inserted into the default game tilegroups.
+
+<hr>
+
+# Previous updates:
+## Snow Covering Tileset v8.0
 ## Changelog:
 
 * Added water gradient tiles along an invisible water tile. <br> ![water gradient](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/better_waterfall_by_alzter_and_eauix/wgr_e.png)
