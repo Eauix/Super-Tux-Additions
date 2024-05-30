@@ -115,7 +115,7 @@
   )
 
 ;; -----------------------------------------------------------------
-  ;;(import-tileset
-  ;;    (file "/images/tiles.strf")
-  ;;)
+  (import-tileset
+      (file "/images/tiles.strf")
+  )
 )

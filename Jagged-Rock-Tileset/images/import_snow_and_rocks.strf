@@ -1,0 +1,14 @@
+
+;; IMPORT TILESETS: SNOW COVERING, JAGGED ROCKS AND DEFAULT
+
+(supertux-tiles
+  (import-tileset
+      (file "images/pure_snow_custom_tiles_v8.1_noi.strf")
+  )
+  (import-tileset
+      (file "images/jagged_rocks_custom_tiles_noi.strf")
+  )
+  (import-tileset
+      (file "images/tiles.strf")
+  )
+)
