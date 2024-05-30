@@ -1,4 +1,10 @@
-# Jagged Rock Tileset v1.0
+# Jagged Rock Tileset v2.0
+* Slopes and all its necessary variants were added.
+
+![thumb2](https://github.com/Eauix/Super-Tux-Additions/blob/main/Jagged-Rock-Tileset/Thumbnail2.png)
+
+# Previous Updates:
+## Jagged Rock Tileset v1.0
 
 * Only the base tiles, corners and autotiles are done for now.
 * Slopes, more variants and backgrounds are coming in a future update.
