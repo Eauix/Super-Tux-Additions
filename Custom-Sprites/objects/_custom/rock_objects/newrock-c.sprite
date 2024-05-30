@@ -1,0 +1,7 @@
+(supertux-sprite
+  (action
+    (name "normal")
+    (hitbox 8 8 16 16)
+    (images "newrock-c.png")
+  )
+)
