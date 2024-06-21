@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Nel'vari.ogg")
+  (loop-begin 2.596)
+  (loop-at    95.131)
+)
