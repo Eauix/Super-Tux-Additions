@@ -1,4 +1,8 @@
 # Custom Music Credits
+
+* **Pixel Sprout Studios** *(Sun Haven OST)*
+  - Nel'vari
+
 * **Efence**
   - Spaceflight
 
