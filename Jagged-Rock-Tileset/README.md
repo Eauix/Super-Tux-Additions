@@ -1,3 +1,6 @@
+## News: Jagged Rock Tileset is coming to vanilla Super Tux!
+There's an open PR to add those tiles to the game, it is 100% complete and only awaiting for approval and merging
+
 # Jagged Rock Tileset v2.1
 * Rock block tiles were added
 
