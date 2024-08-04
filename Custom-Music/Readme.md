@@ -6,7 +6,7 @@
 * **Efence**
   - Spaceflight
 
-* **HOYO-MIX** *(Genshin Impact OST)* **/ Sumes Music**
+* **HOYO-MIX** *(Genshin Impact OST)* **& Sumes Music**
   - Saurian Wanderings (Extended Cover)
 
 * **Curtis Schweitzer** *(Starbound OST)*
@@ -59,5 +59,5 @@
 	- Descend
 
 
-* **Yuutsu "憂鬱"**
+* **Yu Utsu "憂鬱"**
 	- 8/25/17
