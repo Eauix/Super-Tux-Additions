@@ -1,6 +1,3 @@
-# WARNING!
-## For some unknow reason, using a door in a level completely breaks the pipe functions until the level is reset. This might happen because of how the doors were updated and now they probably handle the sector spawning differently.
-
 # Working Pipes for Super Tux 
 ![pipe decal](https://github.com/Eauix/Super-Tux-Additions/blob/main/Working-Pipes/images/decal/_custom/billboard-pipe.png)
 
