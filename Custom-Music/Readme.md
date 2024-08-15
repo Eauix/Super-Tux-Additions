@@ -44,7 +44,8 @@
 
 
 * **Euan Ellis**
-	- M O O N W A L K E R 
+	- M O O N W A L K E R
+	- M O O N W A L K E R (Remaster)
 
 
 * **HOME**
