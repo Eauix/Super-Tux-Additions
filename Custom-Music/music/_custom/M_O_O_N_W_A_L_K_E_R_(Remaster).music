@@ -1,0 +1,5 @@
+(supertux-music
+  (file "M_O_O_N_W_A_L_K_E_R_(Remaster).ogg")
+  (loop-begin 38.522)
+  (loop-at    192.109)
+)
