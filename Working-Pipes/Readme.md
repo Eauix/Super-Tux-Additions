@@ -3,7 +3,7 @@
 
 This folder contains all the files needed for the enterable pipes to work in your game.
 
-If you want to use the pipes in a level, you must `import("scripts/pipes_util.nut")` into your sector init script, then use the many functions you will find inside the .nut file such as `exit_pipe(string scripted_object)`
+If you want to use the pipes in a level, you must `import("scripts/pipes_util.nut")` into your sector init script, then use the many functions you will find inside the .nut file such as `exit_pipe(object_name)`
 
 # Tutorial
 
