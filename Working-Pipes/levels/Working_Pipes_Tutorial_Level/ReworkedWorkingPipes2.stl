@@ -9,9 +9,9 @@
     (name "main")
     (init-script "
 import(\"scripts/pipes_util.nut\");
-//import(\"scripts/health_util.nut\");
 
-prevent();
+//import(\"scripts/health_util.nut\");
+//prevent();
 //use_health(true);
 ")
     (ambient-light
