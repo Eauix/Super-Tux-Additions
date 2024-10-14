@@ -1,4 +1,14 @@
-# Snow Covering Tileset v8.1
+# Snow Covering Tileset v8.1.1
+## Changelog:
+
+* Increased the Waterfall FPS from 10 to 15
+
+* Added a simple invisible tile that emits light <br> ![ambient_light](https://github.com/user-attachments/assets/4b1b4b36-0244-4a8e-ab77-f26298346588)
+
+<hr>
+
+# Previous Updates:
+## Snow Covering Tileset v8.1
 ## Changelog:
 
 * Fixed the broken tiles that had their IDs changed during deprecation.
@@ -15,7 +25,6 @@
 
 <hr>
 
-# Previous updates:
 ## Snow Covering Tileset v8.0
 ## Changelog:
 
