@@ -33,7 +33,7 @@ hicon <- FloatingImage("images/custom_hud/heart_icon.sprite");
 hicon.set_anchor_point(Level.baranch);
 hicon.set_visible(false);
 hicon.set_pos(Level.barposx, Level.barposy);
-hicon.set_action("normal");
+hicon.set_action("h5");
 hicon.set_layer(500);
 
 if(!("sfb" in Level)){
@@ -65,6 +65,18 @@ Level.univ_dmg <- 1;
 
 // ==== FUNCTIONS TO USE IN-EDITOR =============================================
 
+// SPAWNS A TRIGGER TO START HEALTH USE IN THE LEVEL
+
+start_health <- function(){
+  sector.settings.add_object("scripttrigger", "", Tux.get_x(), Tux.get_y(), "", "(oneshot #t) (script \" use_health(true); \")");
+  if(!("hstarted" in Level)){ Level.hstarted <- true; reset_health(); }
+}
+
+// SPAWNS A HEALING ITEM
+
+spawn_heart <- function(hx, hy){
+  sector.settings.add_object("powerup", "", hx, hy, "", "(script \"heal(1);\") (sprite \"images/custom_hud/heal_item.sprite\")");
+}
 
 // RESETS THE HEALTH.
 // (USEFUL AS A SCRIPT TRIGGER AT THE BEGINNING OF THE LEVEL.)
