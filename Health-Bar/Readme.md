@@ -1,10 +1,5 @@
 ## 10/14/2024 Small update
-Added 2 new useful functions:
-
-- `start_health()` - Starts the health bar use script in a separate thread, so it doesn't interrupt the execution of the main script that would otherwise only proceed to the next line when the health bar stopped being used.
-  
-- `spawn_heart(x, y)` - Spawns a healing item at the desired position told by `x` and `y`.
-
+Added 2 new useful functions: `start_health()` and `spawn_heart(x, y)`
 
 # Health Bar for Super Tux
 ![bar](https://github.com/Eauix/Super-Tux-Additions/blob/main/Health-Bar/images/custom_hud/hb_example.png)
@@ -19,11 +14,15 @@ After this, several functions related to the health bar will be available to use
 
 ## Functions:
 
-- `use_health(true)` - Activates the health bar, it will appear at the top right of your screen and Tux will be able to take more hits before he dies. Recommended to use in the sector init script.
+- `use_health(true)` - Activates the health bar, it will appear at the top right of your screen and Tux will be able to take more hits before he dies. Recommended to be used in the sector init script, but make sure that it is the last line of the code, this function is a loop.
+
+
 
 - `use_health(false)` - Deactivates the health bar, making the player damage work as before.
 
 - `heal(x)` - Recovers `x` health points to the player, you can't heal above 5 points as it is the full health. Recommended to use with a custom powerup, there's a sprite named `heart_item.sprite` for this powerup.
+
+
 
 - `hurt(x)` - Damages the player, taking `x` health points from it. Recommended to use with scripted objects that should be considered hazardous. x=5 will instantly kill the player, and x=0 will only take his powerup.
 
@@ -32,6 +31,10 @@ After this, several functions related to the health bar will be available to use
 - `set_damage(x)` - Makes everything that hurts the player take `x` health points by default. Recommended to use with ambient areas that should deal more damage, for example lava or spikes. But probably it's tricky to use, since you have to set the damage to a value when the player enters the area and set back to the default value when the player exits the area.
 
 - `hide()` and `unhide()` - Makes the health bar invisible or visible again. Recommended to use during cutscenes or when going from one sector to another, to prevent a duplicated bar visual glitch.
+
+- `start_health()` - Starts the `use_health()` script loop in a separate thread, so it doesn't interrupt the execution of the main script that would otherwise only proceed to the next line when the health bar stopped being used.
+ 
+- `spawn_heart(x, y)` - Spawns a healing item at the desired position told by `x` and `y`.
 
 ## Notice:
 
