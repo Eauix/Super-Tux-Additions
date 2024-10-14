@@ -1,0 +1,5 @@
+(supertux-music
+  (file "Vega.ogg")
+  (loop-begin 0.0)
+  (loop-at    237.554)
+)
