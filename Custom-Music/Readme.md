@@ -62,3 +62,6 @@
 
 * **Yu Utsu "憂鬱"**
 	- 8/25/17
+
+* **John Dunder**
+  	- Vega
