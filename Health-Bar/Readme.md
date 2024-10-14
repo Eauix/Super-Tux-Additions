@@ -1,3 +1,11 @@
+## 10/14/2024 Small update
+Added 2 new useful functions:
+
+- `start_health()` - Starts the health bar use script in a separate thread, so it doesn't interrupt the execution of the main script that would otherwise only proceed to the next line when the health bar stopped being used.
+  
+- `spawn_heart(x, y)` - Spawns a healing item at the desired position told by `x` and `y`.
+
+
 # Health Bar for Super Tux
 ![bar](https://github.com/Eauix/Super-Tux-Additions/blob/main/Health-Bar/images/custom_hud/hb_example.png)
 
