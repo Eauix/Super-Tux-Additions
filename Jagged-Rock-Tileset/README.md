@@ -1,4 +1,7 @@
-## News: Jagged Rock Tileset is coming to vanilla Super Tux!
+## News (October 2024): Jagged Rock Tileset is officially added to vanilla Super Tux!
+The PR has been approved and merged, and with it comes many sign redesigns, 3 new sign styles and level-themed sign overlays along all the rock stuff
+
+## News (May 2024): Jagged Rock Tileset is coming to vanilla Super Tux!
 There's an open PR to add those tiles to the game, it is 100% complete and only awaiting for approval and merging
 
 # Jagged Rock Tileset v2.1
