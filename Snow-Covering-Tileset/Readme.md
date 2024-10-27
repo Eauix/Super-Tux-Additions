@@ -100,7 +100,7 @@
 * Added the Silver Bonus Blocks, a Quality of Life feature. <br> ![platinum coin](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000000.png) ![silver block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silver-0.png) ![5 coins block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5coins.png) ![bonus-5fire-old](https://github.com/user-attachments/assets/a3e1233e-08d3-405d-bcd0-e91c526c7bc9) ![bonus-5ice-old](https://github.com/user-attachments/assets/b28fe5b1-75b8-4aca-aa28-c3c7fbc53234) ![bonus-5air-old](https://github.com/user-attachments/assets/21c77960-15c4-4c4b-862b-0d8e0300b459) ![bonus-5earth-old](https://github.com/user-attachments/assets/40a6f265-3494-417b-8d8c-91bb97dde136) ![stable 1up block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_1up.png) ![stable star block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_star.png)
 <br> <sup>- For them to work properly, you must import the "bonus_util.nut" into the sector init script.</sup>
 
-## Known issues I might not be able to fix:
+## Known issues:
 
 * 2 of the high snow tile variants aren't accessible via the auxiliary tiles, but you probably won't need them at all.
 
