@@ -1,0 +1,1520 @@
+;;
+;; pure_snow_v8.2_autotiles.satc
+;; Supertux AutoTiles Configuration
+;;
+;; CUSTOM AUTOTILES FOR THE SNOW COVERING TILESET
+;;
+
+(supertux-autotiles
+
+  ;; PACKED SNOW
+  
+  (autotileset
+    (name "packed_snow")
+    (default 55018)
+
+    ;; CENTER
+    (autotile
+      (id 55018)
+      (alt-id
+        (id 55089)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55092)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55130)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 55126)
+        (weight 0.2)
+      )
+      (solid #t)
+      (mask "***11***")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 55017)
+      (solid #t)
+      (mask "0**010**")
+      (mask "0**0110*")
+      (mask "10*010**")
+      (mask "10*0110*")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 55019)
+      (solid #t)
+      (mask "**010**0")
+      (mask "**010*01")
+      (mask "*0110**0")
+      (mask "*0110*01")
+    )
+    
+    ;; THIN
+    (autotile
+      (id 55036)
+      (solid #t)
+      (mask "01000*0*")
+      (mask "*0*00010")
+      (mask "01000010")
+      (mask "*0*00*0*")
+    )
+    
+    ;; CORNER THIN BOTTOM CENTER
+    (autotile
+      (id 55040)
+      (solid #t)
+      (mask "0*000111")
+      (mask "*0*00111")
+    )
+    
+    ;; CORNER THIN "C"
+    (autotile
+      (id 55314)
+      (solid #t)
+      (mask "01100011")
+    )
+    
+    ;; CORNER THIN "D"
+    (autotile
+      (id 55315)
+      (solid #t)
+      (mask "11000110")
+    )
+    
+    ;; CORNER "I"
+    (autotile
+      (id 55322)
+      (solid #t)
+      (mask "11100111")
+    )
+    
+    ;; CORNER "S"
+    (autotile
+      (id 55073)
+      (solid #t)
+      (mask "01100110")
+    )
+    
+    ;; CORNER "Z"
+    (autotile
+      (id 55076)
+      (solid #t)
+      (mask "11000011")
+    )
+    
+    ;; CORNER "J"
+    (autotile
+      (id 55318)
+      (solid #t)
+      (mask "11100110")
+    )
+    
+    ;; CORNER "t"
+    (autotile
+      (id 55319)
+      (solid #t)
+      (mask "11100011")
+    )
+    
+    ;; CORNER "f"
+    (autotile
+      (id 55321)
+      (solid #t)
+      (mask "01100111")
+    )
+    
+    ;; CORNER "1"
+    (autotile
+      (id 55320)
+      (solid #t)
+      (mask "11000111")
+    )
+    
+    ;; CORNER THIN BOTTOM RIGHT
+    (autotile
+      (id 55041)
+      (solid #t)
+      (mask "01000110")
+      (mask "*0*00110")
+    )
+    
+    ;; CORNER THIN BOTTOM LEFT
+    (autotile
+      (id 55042)
+      (solid #t)
+      (mask "01000011")
+      (mask "*0*00011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 55022)
+      (solid #t)
+      (mask "0**0111*")
+      (mask "10*0111*")
+      
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 55023)
+      (solid #t)
+      (mask "**010*11")
+      (mask "*0110*11")
+    )
+    
+    ;; CORNER "C"
+    (autotile
+      (id 55316)
+      (solid #t)
+      (mask "*1110*11")
+    )
+    
+    ;; CORNER "D"
+    (autotile
+      (id 55317)
+      (solid #t)
+      (mask "11*0111*")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 55028)
+      (solid #t)
+      (mask "*1110**0")
+      (mask "*1110*01")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 55024)
+      (solid #t)
+      (mask "11*010**")
+      (mask "11*0110*")
+    )
+    
+    ;; CORNER THIN TOP CENTER
+    (autotile
+      (id 55033)
+      (solid #t)
+      (mask "11100*0*")
+      (mask "11100010")
+    )
+    
+    ;; CORNER THIN TOP RIGHT
+    (autotile
+      (id 55034)
+      (solid #t)
+      (mask "11000010")
+      (mask "11000*0*")
+    )
+    
+    ;; CORNER THIN TOP LEFT
+    (autotile
+      (id 55035)
+      (solid #t)
+      (mask "01100010")
+      (mask "01100*0*")
+
+    )
+    
+    ;; DECO TOP LEFT
+    (autotile
+      (id 55001)
+      (solid #f)
+      (mask "*0***011")
+    )
+    
+    ;; DECO TOP CENTER
+    (autotile
+      (id 55002)
+      (alt-id
+				(id 55384)
+				(weight 0.2)
+			)
+			(alt-id
+				(id 55385)
+				(weight 0.2)
+			)
+			(alt-id
+				(id 55016)
+				(weight 0.05)
+			)
+      (solid #f)
+      (mask "*0***111")
+    )
+    
+    ;; DECO TOP RIGHT
+    (autotile
+      (id 55003)
+      (solid #f)
+      (mask "*0***110")
+    )
+    
+    ;; DECO TOP THIN
+    (autotile
+      (id 55025)
+      (solid #f)
+      (mask "*0***010")
+    )
+    
+    ;; DECO BOTTOM LEFT
+    (autotile
+      (id 55005)
+      (solid #f)
+      (mask "011***0*")
+    )
+    
+    ;; DECO BOTTOM CENTER
+    (autotile
+      (id 55006)
+      (alt-id
+				(id 55004)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55008)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55012)
+				(weight 0.2)
+			)
+      (solid #f)
+      (mask "111***0*")
+    )
+    
+    ;; DECO BOTTOM RIGHT
+    (autotile
+      (id 55007)
+      (solid #f)
+      (mask "110***0*")
+    )
+    
+    ;; DECO BOTTOM THIN
+    (autotile
+      (id 55029)
+      (solid #f)
+      (mask "010***0*")
+    )
+    
+    ;; DECO LEFT-LEFT
+    (autotile
+      (id 55323)
+      (solid #f)
+      (mask "011**011")
+    )
+    
+    ;; DECO LEFT-CENTER
+    (autotile
+      (id 55327)
+      (solid #f)
+      (mask "111**011")
+    )
+    
+    ;; DECO LEFT-RIGHT
+    (autotile
+      (id 55331)
+      (solid #f)
+      (mask "110**011")
+    )
+    
+    ;; DECO LEFT-THIN
+    (autotile
+      (id 55335)
+      (solid #f)
+      (mask "010**011")
+    )
+    
+    ;; DECO CENTER-LEFT
+    (autotile
+      (id 55324)
+      (solid #f)
+      (mask "011**111")
+    )
+    
+    ;; DECO CENTER-CENTER
+    (autotile
+      (id 55328)
+      (solid #f)
+      (mask "111**111")
+    )
+    
+    ;; DECO CENTER-RIGHT
+    (autotile
+      (id 55332)
+      (solid #f)
+      (mask "110**111")
+    )
+    
+    ;; DECO CENTER-THIN
+    (autotile
+      (id 55336)
+      (solid #f)
+      (mask "010**111")
+    )
+    
+    ;; DECO RIGHT-LEFT
+    (autotile
+      (id 55325)
+      (solid #f)
+      (mask "011**110")
+    )
+    
+    ;; DECO RIGHT-CENTER
+    (autotile
+      (id 55329)
+      (solid #f)
+      (mask "111**110")
+    )
+    
+    ;; DECO RIGHT-RIGHT
+    (autotile
+      (id 55333)
+      (solid #f)
+      (mask "110**110")
+    )
+    
+    ;; DECO RIGHT-THIN
+    (autotile
+      (id 55337)
+      (solid #f)
+      (mask "010**110")
+    )
+    
+    ;; DECO THIN-LEFT
+    (autotile
+      (id 55326)
+      (solid #f)
+      (mask "011**010")
+    )
+    
+    ;; DECO THIN-CENTER
+    (autotile
+      (id 55330)
+      (solid #f)
+      (mask "111**010")
+    )
+    
+    ;; DECO THIN-RIGHT
+    (autotile
+      (id 55334)
+      (solid #f)
+      (mask "110**010")
+    )
+    
+    ;; DECO THIN-THIN
+    (autotile
+      (id 55338)
+      (solid #f)
+      (mask "010**010")
+    )
+    
+  )
+  
+  ;; PACKED SNOW HOLES
+  
+  (autotileset
+    (name "packed_snow_holes")
+    (default 11)
+    
+    ;; CENTER
+    (autotile
+      (id 55018)
+      (alt-id
+        (id 55089)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55092)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55130)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 55126)
+        (weight 0.2)
+      )
+
+      (solid #t)
+      (mask "********")
+      (mask "*1****1*")
+      (mask "***11***")
+    )
+
+    ;; DECO TOP LEFT
+    (autotile
+      (id 55043)
+      (solid #f)
+      (mask "00000001")
+    )
+    
+    ;; DECO TOP
+    (autotile
+      (id 55010)
+      (alt-id
+        (id 55014)
+        (weight 0.5)
+      )
+      (solid #f)
+      (mask "00000*1*")
+    )
+    
+    ;; DECO TOP RIGHT
+    (autotile
+      (id 55044)
+      (solid #f)
+      (mask "00000100")
+    )
+    
+    ;; DECO LEFT
+    (autotile
+      (id 55143)
+      (solid #f)
+      (mask "00*0100*")
+    )
+    
+    ;; DECO RIGHT
+    (autotile
+      (id 55155)
+      (solid #f)
+      (mask "*0010*00")
+    )
+    
+    ;; DECO BOTTOM LEFT
+    (autotile
+      (id 55030)
+      (solid #f)
+      (mask "00100000")
+    )
+    
+    ;; DECO BOTTOM
+    (autotile
+      (id 55006)
+      (alt-id
+				(id 55004)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55008)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55012)
+				(weight 0.2)
+			)
+      (solid #f)
+      (mask "*1*00000")
+    )
+    
+    ;; DECO BOTTOM RIGHT
+    (autotile
+        (id 55031)
+        (solid #f)
+        (mask "10000000")
+    )
+    
+    ;; DECO CORNER BOTTOM RIGHT
+    (autotile
+      (id 55159)
+      (solid #f)
+      (mask "00*0110*")
+      (mask "00100*1*")
+      (mask "00*01*1*")
+    )
+    
+    ;; DECO CORNER BOTTOM LEFT
+    (autotile
+      (id 55157)
+      (solid #f)
+      (mask "10000*1*")
+      (mask "*0010*1*")
+      (mask "*0010*01")
+    )
+    
+    ;; DECO CORNER TOP RIGHT
+    (autotile
+      (id 55163)
+      (solid #f)
+      (mask "10*0100*")
+      (mask "*1*0100*")
+      (mask "*1*00001")
+    )
+    
+    ;; DECO CORNER TOP LEFT
+    (autotile
+      (id 55161)
+      (solid #f)
+      (mask "*1*10*00")
+      (mask "*1*00100")
+      (mask "*0110*00")
+    )
+  )
+  
+  ;; PACKED SNOW HIGH
+  
+  (autotileset
+    (name "packed_snow_high")
+    (default 55018)
+
+    ;; CENTER
+    (autotile
+      (id 55018)
+      (alt-id
+        (id 55089)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55092)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55130)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 55126)
+        (weight 0.2)
+      )
+      (solid #t)
+      (mask "***11***")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 55017)
+      (solid #t)
+      (mask "0**010**")
+      (mask "0**0110*")
+      (mask "10*010**")
+      (mask "10*0110*")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 55019)
+      (solid #t)
+      (mask "**010**0")
+      (mask "**010*01")
+      (mask "*0110**0")
+      (mask "*0110*01")
+    )
+    
+    ;; THIN
+    (autotile
+      (id 55036)
+      (solid #t)
+      (mask "01000*0*")
+      (mask "*0*00010")
+      (mask "01000010")
+      (mask "*0*00*0*")
+    )
+    
+    ;; CORNER THIN BOTTOM CENTER
+    (autotile
+      (id 55037)
+      (solid #t)
+      (mask "0*000111")
+      (mask "*0*00111")
+    )
+    
+    ;; CORNER THIN "C"
+    (autotile
+      (id 55314)
+      (solid #t)
+      (mask "01100011")
+    )
+    
+    ;; CORNER THIN "D"
+    (autotile
+      (id 55315)
+      (solid #t)
+      (mask "11000110")
+    )
+    
+    ;; CORNER "I"
+    (autotile
+      (id 55322)
+      (solid #t)
+      (mask "11100111")
+    )
+    
+    ;; CORNER "S"
+    (autotile
+      (id 55081)
+      (solid #t)
+      (mask "01100110")
+    )
+    
+    ;; CORNER "Z"
+    (autotile
+      (id 55084)
+      (solid #t)
+      (mask "11000011")
+    )
+    
+    ;; CORNER "J"
+    (autotile
+      (id 55318)
+      (solid #t)
+      (mask "11100110")
+    )
+    
+    ;; CORNER "t"
+    (autotile
+      (id 55319)
+      (solid #t)
+      (mask "11100011")
+    )
+    
+    ;; CORNER "f"
+    (autotile
+      (id 55321)
+      (solid #t)
+      (mask "01100111")
+    )
+    
+    ;; CORNER "1"
+    (autotile
+      (id 55320)
+      (solid #t)
+      (mask "11000111")
+    )
+    
+    ;; CORNER THIN BOTTOM RIGHT
+    (autotile
+      (id 55038)
+      (solid #t)
+      (mask "01000110")
+      (mask "*0*00110")
+    )
+    
+    ;; CORNER THIN BOTTOM LEFT
+    (autotile
+      (id 55039)
+      (solid #t)
+      (mask "01000011")
+      (mask "*0*00011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 55020)
+      (solid #t)
+      (mask "0**0111*")
+      (mask "10*0111*")
+      
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 55021)
+      (solid #t)
+      (mask "**010*11")
+      (mask "*0110*11")
+    )
+    
+    ;; CORNER "C"
+    (autotile
+      (id 55316)
+      (solid #t)
+      (mask "*1110*11")
+    )
+    
+    ;; CORNER "D"
+    (autotile
+      (id 55317)
+      (solid #t)
+      (mask "11*0111*")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 55028)
+      (solid #t)
+      (mask "*1110**0")
+      (mask "*1110*01")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 55024)
+      (solid #t)
+      (mask "11*010**")
+      (mask "11*0110*")
+    )
+    
+    ;; CORNER THIN TOP CENTER
+    (autotile
+      (id 55033)
+      (solid #t)
+      (mask "11100*0*")
+      (mask "11100010")
+    )
+    
+    ;; CORNER THIN TOP RIGHT
+    (autotile
+      (id 55034)
+      (solid #t)
+      (mask "11000010")
+      (mask "11000*0*")
+    )
+    
+    ;; CORNER THIN TOP LEFT
+    (autotile
+      (id 55035)
+      (solid #t)
+      (mask "01100010")
+      (mask "01100*0*")
+
+    )
+    
+    ;; DECO TOP LEFT
+    (autotile
+      (id 55013)
+      (solid #f)
+      (mask "*0***011")
+    )
+    
+    ;; DECO TOP CENTER
+    (autotile
+      (id 55010)
+      (alt-id
+				(id 55014)
+				(weight 0.5)
+			)
+      (solid #f)
+      (mask "*0***111")
+    )
+    
+    ;; DECO TOP RIGHT
+    (autotile
+      (id 55015)
+      (solid #f)
+      (mask "*0***110")
+    )
+    
+    ;; DECO TOP THIN
+    (autotile
+      (id 55032)
+      (solid #f)
+      (mask "*0***010")
+    )
+    
+    ;; DECO BOTTOM LEFT
+    (autotile
+      (id 55005)
+      (solid #f)
+      (mask "011***0*")
+    )
+    
+    ;; DECO BOTTOM CENTER
+    (autotile
+      (id 55006)
+      (alt-id
+				(id 55004)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55008)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55012)
+				(weight 0.2)
+			)
+      (solid #f)
+      (mask "111***0*")
+    )
+    
+    ;; DECO BOTTOM RIGHT
+    (autotile
+      (id 55007)
+      (solid #f)
+      (mask "110***0*")
+    )
+    
+    ;; DECO BOTTOM THIN
+    (autotile
+      (id 55029)
+      (solid #f)
+      (mask "010***0*")
+    )
+    
+    ;; DECO LEFT-LEFT
+    (autotile
+      (id 55323)
+      (solid #f)
+      (mask "011**011")
+    )
+    
+    ;; DECO LEFT-CENTER
+    (autotile
+      (id 55327)
+      (solid #f)
+      (mask "111**011")
+    )
+    
+    ;; DECO LEFT-RIGHT
+    (autotile
+      (id 55331)
+      (solid #f)
+      (mask "110**011")
+    )
+    
+    ;; DECO LEFT-THIN
+    (autotile
+      (id 55335)
+      (solid #f)
+      (mask "010**011")
+    )
+    
+    ;; DECO CENTER-LEFT
+    (autotile
+      (id 55324)
+      (solid #f)
+      (mask "011**111")
+    )
+    
+    ;; DECO CENTER-CENTER
+    (autotile
+      (id 55328)
+      (solid #f)
+      (mask "111**111")
+    )
+    
+    ;; DECO CENTER-RIGHT
+    (autotile
+      (id 55332)
+      (solid #f)
+      (mask "110**111")
+    )
+    
+    ;; DECO CENTER-THIN
+    (autotile
+      (id 55336)
+      (solid #f)
+      (mask "010**111")
+    )
+    
+    ;; DECO RIGHT-LEFT
+    (autotile
+      (id 55325)
+      (solid #f)
+      (mask "011**110")
+    )
+    
+    ;; DECO RIGHT-CENTER
+    (autotile
+      (id 55329)
+      (solid #f)
+      (mask "111**110")
+    )
+    
+    ;; DECO RIGHT-RIGHT
+    (autotile
+      (id 55333)
+      (solid #f)
+      (mask "110**110")
+    )
+    
+    ;; DECO RIGHT-THIN
+    (autotile
+      (id 55337)
+      (solid #f)
+      (mask "010**110")
+    )
+    
+    ;; DECO THIN-LEFT
+    (autotile
+      (id 55326)
+      (solid #f)
+      (mask "011**010")
+    )
+    
+    ;; DECO THIN-CENTER
+    (autotile
+      (id 55330)
+      (solid #f)
+      (mask "111**010")
+    )
+    
+    ;; DECO THIN-RIGHT
+    (autotile
+      (id 55334)
+      (solid #f)
+      (mask "110**010")
+    )
+    
+    ;; DECO THIN-THIN
+    (autotile
+      (id 55338)
+      (solid #f)
+      (mask "010**010")
+    )
+    
+  )
+  
+  ;; SHADED PACKED SNOW
+  
+  (autotileset
+    (name "shaded_packed_snow")
+    (default 55018)
+
+    ;; CENTER
+    (autotile
+      (id 55018)
+      (alt-id
+        (id 55132)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55131)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55130)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 55126)
+        (weight 0.2)
+      )
+      (solid #t)
+      (mask "***11***")
+    )
+    
+    ;; LEFT
+    (autotile
+      (id 55017)
+      (solid #t)
+      (mask "0**010**")
+      (mask "0**0110*")
+      (mask "10*010**")
+      (mask "10*0110*")
+    )
+    
+    ;; RIGHT
+    (autotile
+      (id 55019)
+      (solid #t)
+      (mask "**010**0")
+      (mask "**010*01")
+      (mask "*0110**0")
+      (mask "*0110*01")
+    )
+    
+    ;; THIN
+    (autotile
+      (id 55036)
+      (solid #t)
+      (mask "01000*0*")
+      (mask "*0*00010")
+      (mask "01000010")
+      (mask "*0*00*0*")
+    )
+    
+    ;; CORNER THIN BOTTOM CENTER
+    (autotile
+      (id 55040)
+      (solid #t)
+      (mask "0*000111")
+      (mask "*0*00111")
+    )
+    
+    ;; CORNER THIN "C"
+    (autotile
+      (id 55339)
+      (solid #t)
+      (mask "01100011")
+    )
+    
+    ;; CORNER THIN "D"
+    (autotile
+      (id 55340)
+      (solid #t)
+      (mask "11000110")
+    )
+    
+    ;; CORNER "I"
+    (autotile
+      (id 55347)
+      (solid #t)
+      (mask "11100111")
+    )
+    
+    ;; CORNER "S"
+    (autotile
+      (id 55134)
+      (solid #t)
+      (mask "01100110")
+    )
+    
+    ;; CORNER "Z"
+    (autotile
+      (id 55138)
+      (solid #t)
+      (mask "11000011")
+    )
+    
+    ;; CORNER "J"
+    (autotile
+      (id 55343)
+      (solid #t)
+      (mask "11100110")
+    )
+    
+    ;; CORNER "t"
+    (autotile
+      (id 55344)
+      (solid #t)
+      (mask "11100011")
+    )
+    
+    ;; CORNER "f"
+    (autotile
+      (id 55346)
+      (solid #t)
+      (mask "01100111")
+    )
+    
+    ;; CORNER "1"
+    (autotile
+      (id 55345)
+      (solid #t)
+      (mask "11000111")
+    )
+    
+    ;; CORNER THIN BOTTOM RIGHT
+    (autotile
+      (id 55041)
+      (solid #t)
+      (mask "01000110")
+      (mask "*0*00110")
+    )
+    
+    ;; CORNER THIN BOTTOM LEFT
+    (autotile
+      (id 55042)
+      (solid #t)
+      (mask "01000011")
+      (mask "*0*00011")
+    )
+    
+    ;; CORNER BOTTOM RIGHT
+    (autotile
+      (id 55022)
+      (solid #t)
+      (mask "0**0111*")
+      (mask "10*0111*")
+      
+    )
+    
+    ;; CORNER BOTTOM LEFT
+    (autotile
+      (id 55023)
+      (solid #t)
+      (mask "**010*11")
+      (mask "*0110*11")
+    )
+    
+    ;; CORNER "C"
+    (autotile
+      (id 55341)
+      (solid #t)
+      (mask "*1110*11")
+    )
+    
+    ;; CORNER "D"
+    (autotile
+      (id 55342)
+      (solid #t)
+      (mask "11*0111*")
+    )
+    
+    ;; CORNER TOP LEFT
+    (autotile
+      (id 55133)
+      (solid #t)
+      (mask "*1110**0")
+      (mask "*1110*01")
+    )
+    
+    ;; CORNER TOP RIGHT
+    (autotile
+      (id 55137)
+      (solid #t)
+      (mask "11*010**")
+      (mask "11*0110*")
+    )
+    
+    ;; CORNER THIN TOP CENTER
+    (autotile
+      (id 55141)
+      (solid #t)
+      (mask "11100*0*")
+      (mask "11100010")
+    )
+    
+    ;; CORNER THIN TOP RIGHT
+    (autotile
+      (id 55139)
+      (solid #t)
+      (mask "11000010")
+      (mask "11000*0*")
+    )
+    
+    ;; CORNER THIN TOP LEFT
+    (autotile
+      (id 55135)
+      (solid #t)
+      (mask "01100010")
+      (mask "01100*0*")
+
+    )
+    
+    ;; DECO TOP LEFT
+    (autotile
+      (id 55001)
+      (solid #f)
+      (mask "*0***011")
+    )
+    
+    ;; DECO TOP CENTER
+    (autotile
+      (id 55002)
+      (alt-id
+				(id 55384)
+				(weight 0.2)
+			)
+			(alt-id
+				(id 55385)
+				(weight 0.2)
+			)
+			(alt-id
+				(id 55016)
+				(weight 0.05)
+			)
+      (solid #f)
+      (mask "*0***111")
+    )
+    
+    ;; DECO TOP RIGHT
+    (autotile
+      (id 55003)
+      (solid #f)
+      (mask "*0***110")
+    )
+    
+    ;; DECO TOP THIN
+    (autotile
+      (id 55025)
+      (solid #f)
+      (mask "*0***010")
+    )
+    
+    ;; DECO BOTTOM LEFT
+    (autotile
+      (id 55107)
+      (solid #f)
+      (mask "011***0*")
+    )
+    
+    ;; DECO BOTTOM CENTER
+    (autotile
+      (id 55108)
+      (alt-id
+				(id 55111)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55110)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55112)
+				(weight 0.2)
+			)
+      (solid #f)
+      (mask "111***0*")
+    )
+    
+    ;; DECO BOTTOM RIGHT
+    (autotile
+      (id 55109)
+      (solid #f)
+      (mask "110***0*")
+    )
+    
+    ;; DECO BOTTOM THIN
+    (autotile
+      (id 55117)
+      (solid #f)
+      (mask "010***0*")
+    )
+    
+    ;; DECO LEFT-LEFT
+    (autotile
+      (id 55348)
+      (solid #f)
+      (mask "011**011")
+    )
+    
+    ;; DECO LEFT-CENTER
+    (autotile
+      (id 55352)
+      (solid #f)
+      (mask "111**011")
+    )
+    
+    ;; DECO LEFT-RIGHT
+    (autotile
+      (id 55356)
+      (solid #f)
+      (mask "110**011")
+    )
+    
+    ;; DECO LEFT-THIN
+    (autotile
+      (id 55360)
+      (solid #f)
+      (mask "010**011")
+    )
+    
+    ;; DECO CENTER-LEFT
+    (autotile
+      (id 55345)
+      (solid #f)
+      (mask "011**111")
+    )
+    
+    ;; DECO CENTER-CENTER
+    (autotile
+      (id 55353)
+      (solid #f)
+      (mask "111**111")
+    )
+    
+    ;; DECO CENTER-RIGHT
+    (autotile
+      (id 55357)
+      (solid #f)
+      (mask "110**111")
+    )
+    
+    ;; DECO CENTER-THIN
+    (autotile
+      (id 55361)
+      (solid #f)
+      (mask "010**111")
+    )
+    
+    ;; DECO RIGHT-LEFT
+    (autotile
+      (id 55350)
+      (solid #f)
+      (mask "011**110")
+    )
+    
+    ;; DECO RIGHT-CENTER
+    (autotile
+      (id 55354)
+      (solid #f)
+      (mask "111**110")
+    )
+    
+    ;; DECO RIGHT-RIGHT
+    (autotile
+      (id 55358)
+      (solid #f)
+      (mask "110**110")
+    )
+    
+    ;; DECO RIGHT-THIN
+    (autotile
+      (id 55362)
+      (solid #f)
+      (mask "010**110")
+    )
+    
+    ;; DECO THIN-LEFT
+    (autotile
+      (id 55351)
+      (solid #f)
+      (mask "011**010")
+    )
+    
+    ;; DECO THIN-CENTER
+    (autotile
+      (id 55355)
+      (solid #f)
+      (mask "111**010")
+    )
+    
+    ;; DECO THIN-RIGHT
+    (autotile
+      (id 55359)
+      (solid #f)
+      (mask "110**010")
+    )
+    
+    ;; DECO THIN-THIN
+    (autotile
+      (id 55363)
+      (solid #f)
+      (mask "010**010")
+    )
+    
+  )
+  
+  ;; SHADED PACKED SNOW HOLES
+  
+  (autotileset
+    (name "shaded_packed_snow_holes")
+    (default 11)
+    
+    ;; CENTER
+    (autotile
+      (id 55018)
+      (alt-id
+        (id 55132)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55131)
+        (weight 0.002)
+      )
+      (alt-id
+        (id 55130)
+        (weight 0.2)
+      )
+      (alt-id
+        (id 55126)
+        (weight 0.2)
+      )
+
+      (solid #t)
+      (mask "********")
+      (mask "*1****1*")
+      (mask "***11***")
+    )
+
+    ;; DECO TOP LEFT
+    (autotile
+      (id 55043)
+      (solid #f)
+      (mask "00000001")
+    )
+    
+    ;; DECO TOP
+    (autotile
+      (id 55010)
+      (alt-id
+        (id 55014)
+        (weight 0.5)
+      )
+      (solid #f)
+      (mask "00000*1*")
+    )
+    
+    ;; DECO TOP RIGHT
+    (autotile
+      (id 55044)
+      (solid #f)
+      (mask "00000100")
+    )
+    
+    ;; DECO LEFT
+    (autotile
+      (id 55143)
+      (solid #f)
+      (mask "00*0100*")
+    )
+    
+    ;; DECO RIGHT
+    (autotile
+      (id 55155)
+      (solid #f)
+      (mask "*0010*00")
+    )
+    
+    ;; DECO BOTTOM LEFT
+    (autotile
+      (id 55118)
+      (solid #f)
+      (mask "00100000")
+    )
+    
+    ;; DECO BOTTOM
+    (autotile
+      (id 55108)
+      (alt-id
+				(id 55110)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55111)
+				(weight 0.1)
+			)
+			(alt-id
+				(id 55112)
+				(weight 0.2)
+			)
+      (solid #f)
+      (mask "*1*00000")
+    )
+    
+    ;; DECO BOTTOM RIGHT
+    (autotile
+        (id 55121)
+        (solid #f)
+        (mask "10000000")
+    )
+    
+    ;; DECO CORNER BOTTOM RIGHT
+    (autotile
+      (id 55159)
+      (solid #f)
+      (mask "00*0110*")
+      (mask "00100*1*")
+      (mask "00*01*1*")
+    )
+    
+    ;; DECO CORNER BOTTOM LEFT
+    (autotile
+      (id 55157)
+      (solid #f)
+      (mask "10000*1*")
+      (mask "*0010*1*")
+      (mask "*0010*01")
+    )
+    
+    ;; DECO CORNER TOP RIGHT
+    (autotile
+      (id 55164)
+      (solid #f)
+      (mask "10*0100*")
+      (mask "*1*0100*")
+      (mask "*1*00001")
+    )
+    
+    ;; DECO CORNER TOP LEFT
+    (autotile
+      (id 55162)
+      (solid #f)
+      (mask "*1*10*00")
+      (mask "*1*00100")
+      (mask "*0110*00")
+    )
+  )
+   
+)
