@@ -82,7 +82,7 @@
 
 * Added autotiles to the "ground hole" tiles along auxiliary tiles to fill the empty spaces, which are only visible in the editor.
 
-* Added auxiliary tiles that serve the purpose of helping you find the high and shaded snow tile variants using autotiles. <br> ![auxiliary tiles](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/snowcovering_by_eauix/auxiliary/pure_snow_v08_aux.png)
+* Added auxiliary tiles that serve the purpose of helping you find the high and shaded snow tile variants using autotiles. <br> ![auxiliary tiles](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/snowcovering_by_eauix/auxiliary/deprecated/pure_snow_v08_aux.png)
 
 * Moved the files to the "Appdata/Roaming/SuperTux" folder for it not to interfere with the game data files.
 
@@ -90,13 +90,13 @@
 
 * Added a Bonus Block with the healing item for the health bar script pack. <br> ![heal bonus block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-heal.png) <br> <sup>- For it to work properly, you must import the "bonus_util.nut" into your sector init script. Importing the "health_util.nut" is not necessary, but the item won't do much.</sup>
 
-* Made a great rearrangement of all the main tilegroups, including "Sonw", "Snow Background", "Forest", "Forest Background", "Corrupted Forest" and "Corrupted Background". Made tiles often required easier to find.
+* Made a great rearrangement of all the main tilegroups, including "Snow", "Snow Background", "Forest", "Forest Background", "Corrupted Forest" and "Corrupted Background". Made tiles often required easier to find.
 
 * Added the the Weak Tiles and Unstable Tiles as... well, **tiles!**
 
 * Added the Silver Bonus Blocks, a Quality of Life feature. <br> ![platinum coin](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000000.png) ![silver block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silver-0.png) ![5 coins block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5coins.png) ![bonus-5fire-old](https://github.com/user-attachments/assets/a3e1233e-08d3-405d-bcd0-e91c526c7bc9) ![bonus-5ice-old](https://github.com/user-attachments/assets/b28fe5b1-75b8-4aca-aa28-c3c7fbc53234) ![bonus-5air-old](https://github.com/user-attachments/assets/21c77960-15c4-4c4b-862b-0d8e0300b459) ![bonus-5earth-old](https://github.com/user-attachments/assets/40a6f265-3494-417b-8d8c-91bb97dde136) ![stable 1up block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_1up.png) ![stable star block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_star.png)
 
-*    <br> <sup>- For them to work properly, you must import the "bonus_util.nut" into the sector init script.</sup>
+<br> <sup>- For them to work properly, you must import the "bonus_util.nut" into the sector init script.</sup>
 
 ## Known issues I might not be able to fix:
 
