@@ -28,6 +28,8 @@
 
 * Fixed the warning spam regarding autotile masks in all packed snow tilesets
 
+* Removed unnecessary attribute and data sections
+
   ![image](https://github.com/user-attachments/assets/c3104a18-932d-4af7-aa23-a9525bfed291)
 
 ## Known issues:
