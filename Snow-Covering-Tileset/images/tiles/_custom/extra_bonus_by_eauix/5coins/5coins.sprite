@@ -2,7 +2,7 @@
       (action 
           (name "default")
           (fps 60.0)
-          (hitbox 80 48 0 0)
+          (hitbox 80 48 32 32)
           (loops 1)
           (images 
 		"5coins_000000.png"
