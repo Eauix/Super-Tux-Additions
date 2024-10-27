@@ -1,4 +1,38 @@
-# Snow Covering Tileset v8.1.1
+# Snow Covering Tileset v8.2
+## Changelog:
+
+* All the packed snow tilesets now share the same default tile ID, as the game supports multiple autotilesets per tile now
+
+* Deprecated the auxiliary tiles used for packed snow autotileset variants and other tilesets' hole variants
+
+  ![pure_snow_v08_aux](https://github.com/user-attachments/assets/cf4eb356-6744-4c27-a607-5a7c959b3683)
+  ![pure_snow_v08_red_e](https://github.com/user-attachments/assets/dfbc5893-0065-42b8-8f97-c2c3f4ed4531)
+
+* Deprecated the weak / unstable tiles, as they are vanilla now
+
+  ![strawbox-0](https://github.com/user-attachments/assets/bc2e6da8-d233-4b2d-b5ca-a86126597255)
+  ![meltbox-0](https://github.com/user-attachments/assets/d410f8ff-711e-4cc5-8238-6dc0a8f93138)
+  ![snow-0](https://github.com/user-attachments/assets/7bf28cc3-7a88-467e-ab05-080a37fcd5de)
+  ![brick-0](https://github.com/user-attachments/assets/162ff281-96b6-4323-80c9-6114257f90de)
+  ![skull](https://github.com/user-attachments/assets/a2799340-0e3b-40f3-9a56-e4f08152b730)
+
+* Silver bonus blocks now only give 1 powerup, as powerup stacking will be removed with item pockets
+* New "plus an egg" sprites for silver blocks, as they give you the powerup even if you're small, but no longer give you 5 stacks of it
+
+  ![bonus-5fire](https://github.com/user-attachments/assets/6efba090-3e70-471d-a495-075095e44d9e)
+  ![bonus-5ice](https://github.com/user-attachments/assets/1c0d5fb3-bace-4b22-bb29-659ff45a1186)
+  ![bonus-5air](https://github.com/user-attachments/assets/db7daef5-d288-4fcf-8631-61b61ad5bbdd)
+  ![bonus-5earth](https://github.com/user-attachments/assets/45c4e0d9-494a-4999-9de3-a50d8f79752e)
+
+* Bonus_util.nut now pre-loads the 5-coins sprite on entering a level (i think it does, still needs testing)
+
+* Fixed the warning spam regarding autotile masks in all packed snow tilesets
+
+  ![image](https://github.com/user-attachments/assets/c3104a18-932d-4af7-aa23-a9525bfed291)
+
+<hr>
+
+## Snow Covering Tileset v8.1.1
 ## Changelog:
 
 * Increased the Waterfall FPS from 10 to 15
@@ -60,7 +94,9 @@
 
 * Added the the Weak Tiles and Unstable Tiles as... well, **tiles!**
 
-* Added the Silver Bonus Blocks, a Quality of Life feature. <br> ![platinum coin](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000000.png) ![silver block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silver-0.png) ![5 coins block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5coins.png) ![5 fire block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5fire.png) ![5 ice block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5ice.png) ![5 air block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5air.png) ![5 earth block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5earth.png) ![stable 1up block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_1up.png) ![stable star block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_star.png) <br> <sup>- For them to work properly, you must import the "bonus_util.nut" into the sector init script.</sup>
+* Added the Silver Bonus Blocks, a Quality of Life feature. <br> ![platinum coin](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000000.png) ![silver block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silver-0.png) ![5 coins block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-5coins.png) ![bonus-5fire-old](https://github.com/user-attachments/assets/a3e1233e-08d3-405d-bcd0-e91c526c7bc9) ![bonus-5ice-old](https://github.com/user-attachments/assets/b28fe5b1-75b8-4aca-aa28-c3c7fbc53234) ![bonus-5air-old](https://github.com/user-attachments/assets/21c77960-15c4-4c4b-862b-0d8e0300b459) ![bonus-5earth-old](https://github.com/user-attachments/assets/40a6f265-3494-417b-8d8c-91bb97dde136) ![stable 1up block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_1up.png) ![stable star block](https://github.com/Eauix/Super-Tux-Additions/blob/main/Snow-Covering-Tileset/images/tiles/_custom/extra_bonus_by_eauix/bonus-stable_star.png)
+
+*    <br> <sup>- For them to work properly, you must import the "bonus_util.nut" into the sector init script.</sup>
 
 ## Known issues I might not be able to fix:
 
