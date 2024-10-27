@@ -1,4 +1,10 @@
 
+preload_5coins <- FloatingImage("images/tiles/_custom/extra_bonus_by_eauix/5coins/5coins.sprite");
+preload_5coins.set_anchor_point(ANCHOR_TOP_LEFT);
+preload_5coins.set_visible(false);
+preload_5coins.set_pos(-999, -999);
+
+
 add_fire <- function(){
 	play_sound("sounds/fire-flower.wav");
 	health_compatibility();
@@ -47,7 +53,7 @@ hit_5coins <- function(){
 
 heal_alt <- function(){
 	Tux.add_bonus("grow");
-	play_sound("sounds/hop.ogg");
+	//play_sound("sounds/hop.ogg");
 	play_sound("sounds/grow.ogg");
 }
 
