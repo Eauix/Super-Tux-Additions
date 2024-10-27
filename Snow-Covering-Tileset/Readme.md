@@ -28,6 +28,8 @@
 
 * Removed unnecessary attribute and data sections
 
+* Made the 5 coins sprite rotate at the same speed as the normal coin
+
 * Fixed the warning spam regarding autotile masks in all packed snow tilesets
 
   ![image](https://github.com/user-attachments/assets/c3104a18-932d-4af7-aa23-a9525bfed291)
