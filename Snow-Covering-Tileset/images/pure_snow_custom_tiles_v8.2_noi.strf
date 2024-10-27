@@ -1,0 +1,881 @@
+;; -*- scheme -*-
+;; This file contains the mapping from tile-ids to images files as well
+;; as the tile properties (unisolid, solid, ice, water, etc.). Since
+;; it is important that the tile-ids don't change once created and
+;; used in a level some care has to be taken when editing this file,
+;; otherwise the levels would be rendered unusable.
+;;
+;; Some notes on editing this file:
+;;  - tile-ids must be unique
+;;  - the tile definition with the largest id should always be at the
+;;    bottom of the file
+;;  - when creating a new tile definition take the greatest current id
+;;    and increment it by one
+;;  - the meaning of the values in (attributes ...) can be seen in
+;;    src/tile.cpp, unisolid is 3 not 2
+
+;; SNOW COVERING TILESET + EXTRA BONUS + BETTER WATER
+;; LAST CUSTOM TILE ID: 55442
+;; SKIPPED TILE IDS: 55393, 55394, 55426-55434
+
+(supertux-tiles
+  (autotileset
+    (source "tiles/_custom/snowcovering_by_eauix/pure_snow_v8.2_autotiles.satc")
+  )
+
+;; [CUSTOM TILEGROUPS START]
+
+	(tilegroup
+    (name (_ "* Packed Snow *"))
+    (tiles
+      
+      ;; base blocks
+      55001 55002 55003 55025
+      55017 55018 55019 55036
+      55017 55018 55019 55036
+      55005 55006 55007 55029
+      
+      ;; variants
+      55013 55014 55015 55032
+      55009 55010 55011 55089 
+      55384 55385 55016 55092 
+      55127 55128 55129 55126
+      55004 55008 55012 55130
+      
+      ;; slopes
+      55049 55050 55051 55052
+      55053 55054 55055 55056
+      55057 55058 55059 55060
+      55061 55062 55063 55064
+      
+      55396 55395 0     0
+      55402 55401 0     0
+      
+      0     55066 55067 0
+      55069 55070 55071 55072
+      0     55074 55075 0
+      55077 55078 55079 55080
+      0     55082 55083 0
+      55085 55086 55087 55088
+      0     55090 55091 0
+      55093 55094 55095 55096
+      
+      55398 0     0     55397
+      55405 55406 55403 55404
+      
+      0     0     0     0
+      55099 55097 55145 55147
+      55100 55098 55146 55148
+      55104 55106 55101 55102
+      55105 0     0     55103
+      
+      55411 55412 55409 55410
+      55400 55399 55417 55418
+      
+      ;; slanted walls
+      55376 55377 55378 55379
+      55144 55018 55018 55156 
+      55142 55018 55018 55154
+      55372 55373 55374 55375
+      55419 55420 55421 55422
+      0     0     0     0
+
+      ;; holes
+      55161 55006 55163 55018
+      55155 0     55143 55018
+      55157 55010 55159 55018
+      55158 55002 55160 55018
+      
+      ;; corners
+      55026 55027 55043 55044
+      55030 55031 55030 55031
+      
+      ;; walljump merge
+      55392 55017 55019 0
+      4104  55386 55387 4106
+      4109  55388 55389 4111
+      4114  55390 55391 4116
+      0     55017 55019 0
+      0     0     0     0
+      
+      ;; special tiles
+      
+      55314 55315 55316 55317
+      55318 55319 55320 55321	  
+      55022 55020 55041 55038
+      55023 55021 55042 55039
+      55024 55028 55034 55035
+      55037 55068 55065 55322
+      55033 55084 55081 55040
+      55073 55076 0     0
+      55323 55324 55325 55326
+      55327 55328 55329 55330
+      55331 55332 55333 55334
+      55335 55336 55337 55338
+      
+    )
+  )
+  
+     (tilegroup
+    (name (_ "* Snow Covering *"))
+    (tiles
+      
+      55001 55002 55003 55025
+      55005 55006 55007 55029
+      55013 55014 55015 55032
+      55009 55010 55011 55016
+      55004 55008 55012 55006
+      55026 55027 55384 55385
+      55030 55031 55043 55044
+      
+      55048 55045 55047 0
+      0     55046 0     0
+
+      0     0     55224 55225
+      55222 55223 55232 55233
+      55230 55231 0     0
+      
+      55226 55227 0     0
+      55234 55235 55228 55229
+      0     0     55236 55237
+      
+      0     0     55200 55201
+      0     55199 55208 55209
+      55206 55207 55216 0
+      55214 55215 0     0
+      
+      55202 55203 0     0
+      55210 55211 55204 0
+      0     55219 55212 55213
+      0     0     55220 55221
+      
+      0     55175 55180 0
+      55182 55183 55188 55189
+      55190 55191 55196 55197
+      
+      0     0     55169 55170
+      55176 55179 55177 55178
+      55184 55187 55185 55186
+      55192 55195 55193 55194
+      
+      55166 55173 55168 55171
+      55174 55181 55167 55172
+      55217 55218 0     0
+      55198 55205 0     0
+      
+    )
+  )
+  
+  (tilegroup
+    (name (_ "* Shaded Snow Tiles *"))
+    (tiles
+	  
+      55001 55002 55003 55025
+      55107 55108 55109 55117
+      55110 55111 55112 55108
+      55026 55027 55132 55131
+      55118 55121 0     0
+      
+      
+      
+      55114 55113 55149 55151
+      55116 55115 55150 55152
+      55123 55124 55119 55120
+      55125 0     0     55122
+      
+      55411 55408 55407 55410
+      55415 55416 55413 55414
+      
+      55153 55018 55018 55165
+      55380 55381 55382 55383
+      55423 55424 0     0
+      55162 55108 55164 0
+      
+      0     0     55224 55225
+      55222 55223 55273 55281
+      55270 55278 0     0
+      
+      55226 55227 0     0
+      55282 55274 55228 55229
+      0     0     55285 55277
+      
+      0     0     55200 55201
+      0     55199 55272 55265
+      55206 55271 55280 0
+      55262 55279 0     0
+      
+      55202 55203 0     0
+      55266 55275 55204 0
+      0     55283 55276 55213
+      0     0     55284 55269
+      
+      0     55175 55180 0
+      55182 55255 55260 55189
+      55254 55263 55268 55261
+      
+      0     0     55169 55170
+      55176 55179 55241 55242
+      55256 55259 55249 55250
+      55264 55267 55257 55258
+      
+      55238 55245 55239 55244
+      55246 55253 55247 55252
+      55240 55243 0     0
+      55248 55251 0     0
+      
+      55137 55133 55139 55135
+      55138 55134 55140 55136
+      55339 55340 55341 55342
+      55343 55344 55345 55346
+      55141 55347 0     0
+      
+      55348 55349 55350 55351
+      55352 55353 55354 55355
+      55356 55357 55358 55359
+      55360 55361 55362 55363
+
+      
+    )
+  )
+  
+  (tilegroup
+    (name (_ "* Better Water *"))
+    (tiles
+	
+      55286 55287 55288 55289
+      55290 55291 55292 55293
+      55294 55295 55296 55297
+      55298 55299 55300 55301
+      55303 55304 55305 55306
+      55309 55310 55311 55312
+      55302 55307 0     0
+      55308 55313 0     0
+      
+      2019  2140  2141  2142
+      2020  55364 55365 0
+      2020  55366 55367 0 
+      2020  55368 55369 0
+      2020  55370 55371 0
+     
+    )
+  )
+  
+  (tilegroup
+    (name (_ "* Extra Bonus & Misc *"))
+    (tiles
+    
+      55436 55437 55435 55438 
+      55439 55440 55441 55442 
+      55425 55448 55392 55371
+     
+    )
+  ) 
+  
+;; [CUSTOM TILEGROUPS END]
+  
+  ;; [CUSTOM TILES START]
+  
+  (tiles
+    (width 14)
+    (height 12)
+    (ids
+      55001 55002 55003 55004 55049 55050 55051 55052 55097 55107 55108 55133 55145 55157
+      55005 55006 55007 55008 55053 55054 55055 55056 55098 55109 55110 55134 55146 55158
+      55009 55010 55011 55012 55057 55058 55059 55060 55099 55111 55112 55135 55147 55159
+      55013 55014 55015 55016 55061 55062 55063 55064 55100 55113 55114 55136 55148 55160
+      55017 55018 55019 55020 55065 55066 55067 55068 55101 55115 55116 55137 55149 55161
+      55021 55022 55023 55024 55069 55070 55071 55072 55102 55117 55118 55138 55150 55162
+      55025 55026 55027 55028 55073 55074 55075 55076 55103 55119 55120 55139 55151 55163
+      55029 55030 55031 55032 55077 55078 55079 55080 55104 55121 55122 55140 55152 55164
+      55033 55034 55035 55036 55081 55082 55083 55084 55105 55123 55124 55141 55153 55165
+      55037 55038 55039 55043 55085 55086 55087 55088 55106 55125 55126 55142 55154 0    
+      55040 55041 55042 55044 55089 55090 55091 55092 55131 55127 55128 55143 55155 0    
+      55045 55046 55047 55048 55093 55094 55095 55096 55132 55129 55130 55144 55156 0    
+      )
+    (attributes
+      0  0  0  0  0  0  0  0  17 0  0  1  17 0
+      0  0  0  0  17 17 17 17 0  0  0  1  0  0
+      0  0  0  0  0  0  0  0  17 0  0  1  17 0
+      0  0  0  0  17 17 17 17 0  17 17 1  0  0
+      1  1  1  1  1  0  0  1  17 0  0  1  17 0
+      1  1  1  1  17 17 17 17 17 0  0  1  0  0
+      0  0  0  1  1  0  0  1  0  17 17 1  17 0
+      0  0  0  0  17 17 17 17 17 0  0  1  0  0
+      1  1  1  1  1  0  0  1  0  17 17 1  17 17
+      1  1  1  0  17 17 17 17 17 0  1  17 17 0
+      1  1  1  0  1  0  0  1  1  1  1  0  0  0
+      0  0  0  0  17 17 17 17 1  1  1  17 17 0
+    )
+    (datas
+      0  0  0  0  0  0  0  0  1  0  0  0  3  0
+      0  0  0  0  2  0  2  0  0  0  0  0  0  0
+      0  0  0  0  0  0  0  0  3  0  0  0  1  0
+      0  0  0  0  2  0  2  0  0  1  3  0  0  0
+      0  0  0  0  0  0  0  0  33 0  0  0  3  0
+      0  0  0  0  18 34 32 16 17 0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  33 17 0  1  0
+      0  0  0  0  18 34 32 16 19 0  0  0  0  0
+      0  0  0  0  0  0  0  0  0  13 35 0  43 67
+      0  0  0  0  18 34 32 16 35 0  0  49 67 0
+      0  0  0  0  0  0  0  0  0  0  0  0  0  0
+      0  0  0  0  18 34 32 16 0  0  0  50 64 0
+    )
+      (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v05.png")
+    )
+  
+  (tiles
+    (width 8)
+    (height 9)
+    (ids
+      55166 55167 55168 55169 55170 55171 55172 55173
+      55174 55175 55176 55177 55178 55179 55180 55181
+      55182 55183 55184 55185 55186 55187 55188 55189
+      55190 55191 55192 55193 55194 55195 55196 55197
+      55198 55199 55200 55201 55202 55203 55204 55205
+      55206 55207 55208 55209 55210 55211 55212 55213
+      55214 55215 55216 55217 55218 55219 55220 55221
+      55222 55223 55224 55225 55226 55227 55228 55229
+      55230 55231 55232 55233 55234 55235 55236 55237
+    )
+    (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v06_slopes.png")
+  )
+
+  (tiles
+    (width 8)
+    (height 6)
+    (ids
+      55238 55239 55240 55241 55242 55243 55244 55245
+      55246 55247 55248 55249 55250 55251 55252 55253
+      55254 55255 55256 55257 55258 55259 55260 55261
+      55262 55263 55264 55265 55266 55267 55268 55269
+      55270 55271 55272 55273 55274 55275 55276 55277
+      55278 55279 55280 55281 55282 55283 55284 55285
+    )
+    (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v06_slopes2.png")
+  )
+  
+  (tiles
+    (width 6)
+    (height 6)
+    (ids
+      0     55286 55287 55288 55289 0
+      0     55290 55291 55292 55293 0
+      0     55294 55295 55296 55297 0
+      0     55298 55299 55300 55301 0
+      55302 55303 55304 55305 55306 55307
+      55308 55309 55310 55311 55312 55313
+    )
+    (attributes
+      0   512 512 512 512 0
+      0   512 512 512 512 0
+      0   512 512 512 512 0
+      0   512 512 512 512 0
+      512 512 512 512 512 512
+      512 512 512 512 512 512
+    )
+	(images
+		"tiles/_custom/better_waterfall_by_alzter_and_eauix/awf1.png"
+		"tiles/_custom/better_waterfall_by_alzter_and_eauix/awf2.png"
+		"tiles/_custom/better_waterfall_by_alzter_and_eauix/awf3.png"
+		"tiles/_custom/better_waterfall_by_alzter_and_eauix/awf4.png"
+	)
+	(fps 15)
+  )
+  
+  (tiles
+    (width 4)
+    (height 7)
+    (ids
+      55314 55315 55316 55317
+      55318 55319 55320 55321
+      55322 0     0     0    
+      55323 55324 55325 55326
+      55327 55328 55329 55330
+      55331 55332 55333 55334
+      55335 55336 55337 55338
+    )
+    (attributes
+      1 1 1 1
+      1 1 1 1
+      1 0 0 0
+      0 0 0 0
+      0 0 0 0
+      0 0 0 0
+      0 0 0 0
+    )
+    (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v07_gaps.png")
+  )
+  
+  (tiles
+    (width 4)
+    (height 7)
+    (ids
+      55339 55340 55341 55342
+      55343 55344 55345 55346
+      55347 0     0     0    
+      55348 55349 55350 55351
+      55352 55353 55354 55355
+      55356 55357 55358 55359
+      55360 55361 55362 55363
+    )
+    (attributes
+      1 1 1 1
+      1 1 1 1
+      1 0 0 0
+      0 0 0 0
+      0 0 0 0
+      0 0 0 0
+      0 0 0 0
+    )
+    (datas
+      0 0 0 0
+      0 0 0 0
+      0 0 0 0
+      0 0 0 0
+      0 0 0 0
+      0 0 0 0
+      0 0 0 0
+    )
+    (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v07_gaps2.png")
+  )
+  
+  (tiles
+    (width 2)
+    (height 4)
+    (ids
+      55364 55365
+      55366 55367
+      55368 55369
+      55370 55371
+    )
+    (attributes
+      512 512
+      512 512
+      512 512
+      512 512
+    )
+    (datas
+      0 0
+      0 0
+      0 0
+      0 0
+    )
+    (images "tiles/_custom/better_waterfall_by_alzter_and_eauix/wgr.png")
+    (editor-images "tiles/_custom/better_waterfall_by_alzter_and_eauix/wgr_e.png")
+	
+  )
+  
+  (tiles
+    (width 5)
+    (height 4)
+    (ids	
+      55372 55373 55374 55375 55386
+      55376 55377 55378 55379 55387
+      55384 55385 55388 55389 55390
+      55380 55381 55382 55383 55391
+    )
+    (attributes
+      17 1  1 17 1
+      17 1  1 17 1
+      0  0  1 1  1
+      17 1  1 17 1
+    )
+    (datas
+      65 0  0 51 0
+      66 0  0 48 0
+      0  0  0 0  0
+      65 0  0 51 0
+    )
+    (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v08_extra.png")
+  )
+  
+  (tiles
+    (width 1)
+    (height 1)
+    (ids
+	    55392
+    )
+    (attributes
+      4096
+    )
+    (editor-images "tiles/_custom/snowcovering_by_eauix/auxiliary/pure_snow_v08_iwj.png")
+  )
+  
+  (tiles
+    (width 6)
+    (height 4)
+    (ids
+      55395 55396 55397 55398 55399 55400
+      55401 55402 55403 55404 55405 55406
+      55407 55408 55409 55410 55411 55412
+      55413 55414 55415 55416 55417 55418
+    )
+    (attributes
+      0  0  0  0  0  0
+      17 17 17 17 17 17
+      17 17 17 17 17 17
+      0  0  0  0  0  0
+    )
+    (datas
+      0  0  0  0  0  0
+      2  0  18 34 32 16
+      33 35 33 17 19 35
+      0  0  0  0  0  0
+    )
+    (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v08_extra2.png")
+  )
+  
+  (tiles
+    (width 2)
+    (height 3)
+    (ids
+      55419 55420
+      55421 55422
+      55423 55424
+    )
+    (attributes
+      17 17
+      17 17
+      17 17
+    )
+    (datas
+      50 64
+      49 67
+      49 67
+    )
+    (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v08_extra3.png")
+  )
+  
+  (tiles
+    (width 1)
+    (height 1)
+    (ids
+	    55448
+    )
+    (attributes
+      2048
+    )
+    (editor-images 
+      "engine/editor/ambient_light.png"
+    )
+  )
+  
+
+;; HEALING ITEM BONUS BLOCK
+  (tile
+    (id 55425)
+    (images
+      "tiles/_custom/extra_bonus_by_eauix/bonus-heal.png"
+    )
+    (solid #t)
+    (object-name "bonusblock")
+    (object-data "
+	
+      (custom-contents
+         (powerup           (script \"try{heal(1);}catch(e){heal_alt();}\")
+           (sprite \"images/custom_hud/heal_item.sprite\")
+		)
+      )
+      (contents \"custom\")
+      (sprite \"/images/objects/bonus_block/bonusblock.sprite\")
+	  (count 1)
+    
+      ")
+    
+  )
+  
+;; STATIC 1UP SILVER BLOCK
+  (tile
+    (id 55435)
+    (images
+      "tiles/_custom/extra_bonus_by_eauix/bonus-stable_1up.png"
+    )
+    (solid #t)
+    (object-name "bonusblock")
+    (object-data "
+      (contents \"custom\")
+	  (sprite \"/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silverblock.sprite\")
+	  (custom-contents 
+		(powerup (script \"Tux.add_coins(100);\")
+			(sprite \"/images/powerups/1up/1up.sprite\")
+		)
+	  )
+	  (count 1)
+    
+      ")
+    
+  )
+
+;; 5 COINS SILVER BLOCK
+  (tile
+    (id 55436)
+    (images
+      "tiles/_custom/extra_bonus_by_eauix/bonus-5coins.png"
+    )
+    (solid #t)
+    (object-name "bonusblock")
+    (object-data "
+(script \"
+hit_5coins();
+\")
+      (count 1)
+      (coin-sprite \"/images/tiles/_custom/extra_bonus_by_eauix/5coins/5coins.sprite\")
+      (sprite \"/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silverblock.sprite\")
+	  (count 1)
+	 ")
+    
+  )
+  
+;; PLATINUM COIN
+(tile
+    (id 55437)
+    (images
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000000.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000001.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000002.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000003.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000004.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000005.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000006.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000007.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000008.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000009.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000010.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000011.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000012.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000013.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000014.png"
+		"/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin_000015.png"
+    )
+    (object-name "coin")
+	(object-data "
+		(sprite \"/images/tiles/_custom/extra_bonus_by_eauix/platinumcoin/platinum_coin.sprite\")
+
+      (collect-script \"
+collect_platinum();
+\")
+	")
+    (fps 15)
+  )
+  
+;; STATIC STAR SILVER BLOCK
+  (tile
+    (id 55438)
+    (images
+      "tiles/_custom/extra_bonus_by_eauix/bonus-stable_star.png"
+    )
+    (solid #t)
+    (object-name "bonusblock")
+    (object-data "
+      (contents \"custom\")
+	  (sprite \"/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silverblock.sprite\")
+	  (custom-contents 
+		(powerup (script \"Tux.make_invincible();\")
+			(sprite \"/images/powerups/star/star.sprite\")
+		)
+	  )
+	  (count 1)
+    
+      ")
+    
+  )
+  
+;; GUARANTEED FIREFLOWER
+  (tile
+    (id 55439)
+    (images
+      "tiles/_custom/extra_bonus_by_eauix/bonus-5fire.png"
+    )
+    (solid #t)
+    (object-name "bonusblock")
+    (object-data "
+      (contents \"custom\")
+	  (sprite \"/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silverblock.sprite\")
+	  (custom-contents
+        (powerup
+          (version 2)
+          (type \"fire\")
+          (z-pos 50)
+        )
+    )
+	  (count 1)
+    
+      ")
+    
+  )
+  
+;; GUARANTEED ICEFLOWER
+  (tile
+    (id 55440)
+    (images
+      "tiles/_custom/extra_bonus_by_eauix/bonus-5ice.png"
+    )
+    (solid #t)
+    (object-name "bonusblock")
+    (object-data "
+      (contents \"custom\")
+	  (sprite \"/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silverblock.sprite\")
+	  (custom-contents
+        (powerup
+          (version 2)
+          (type \"ice\")
+          (z-pos 50)
+        )
+    )
+	  (count 1)
+    
+      ")
+    
+  )
+
+;; GUARANTEED AIRFLOWER
+  (tile
+    (id 55441)
+    (images
+      "tiles/_custom/extra_bonus_by_eauix/bonus-5air.png"
+    )
+    (solid #t)
+    (object-name "bonusblock")
+    (object-data "
+      (contents \"custom\")
+	  (sprite \"/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silverblock.sprite\")
+	  (custom-contents
+        (powerup
+          (version 2)
+          (type \"air\")
+          (z-pos 50)
+        )
+    )
+	  (count 1)
+    
+      ")
+    
+  )
+  
+;; GUARANTEED EARTHFLOWER
+  (tile
+    (id 55442)
+    (images
+      "tiles/_custom/extra_bonus_by_eauix/bonus-5earth.png"
+    )
+    (solid #t)
+    (object-name "bonusblock")
+    (object-data "
+      (contents \"custom\")
+	  (sprite \"/images/tiles/_custom/extra_bonus_by_eauix/silverblock/silverblock.sprite\")
+	  (custom-contents
+        (powerup
+          (version 2)
+          (type \"earth\")
+          (z-pos 50)
+        )
+    )
+	  (count 1)
+    
+      ")
+    
+  )
+  
+  ;; [CUSTOM TILES END]  
+  
+  ;; [DEPRECATED CUSTOM TILES]
+  
+  (tiles
+    (width 3)
+    (height 3)
+    (deprecated #t)
+    (ids
+	    55393 55394 55426
+      55427 55428 55429
+      55430 55431 55432
+    )
+    (editor-images 
+      "tiles/_custom/snowcovering_by_eauix/auxiliary/deprecated/pure_snow_v08_aux.png"
+    )
+  )
+  
+  (tiles
+    (width 1)
+    (height 2)
+    (deprecated #t)
+    (ids
+	    55433
+      55434
+    )
+    (editor-images 
+      "tiles/_custom/snowcovering_by_eauix/auxiliary/deprecated/pure_snow_v08_red_e.png"
+    )
+    (images 
+      "tiles/_custom/snowcovering_by_eauix/auxiliary/deprecated/pure_snow_v08_red.png"
+    )
+  )
+  
+  (tile
+    (id 55443)
+    (deprecated #t)
+    (images
+      "objects/weak_block/meltbox-0.png"
+    )
+    (solid #t)
+    (object-name "weak_block")
+    (object-data "
+      (linked #f)
+      ")
+    
+  )
+  (tile
+    (id 55444)
+    (deprecated #t)
+    (images
+      "objects/weak_block/strawbox-0.png"
+    )
+    (solid #t)
+    (object-name "weak_block")
+    (object-data "
+      (linked #t)
+      ")
+    
+  )
+  (tile
+    (id 55445)
+    (deprecated #t)
+    (images
+      "objects/unstable_tile/snow-0.png"
+    )
+    (solid #t)
+    (object-name "unstable_tile")
+    (object-data "
+      (type \"snow\")
+      ")
+    
+  )
+  (tile
+    (id 55446)
+    (deprecated #t)
+    (images
+      "objects/unstable_tile/brick-0.png"
+    )
+    (solid #t)
+    (object-name "unstable_tile")
+    (object-data "
+      (type \"brick\")
+      ")
+    
+  )
+  (tile
+    (id 55447)
+    (deprecated #t)
+    (images
+      "objects/skull_tile/skull.png"
+    )
+    (solid #t)
+    (object-name "unstable_tile")
+    (object-data "
+      (type \"delayed\")
+      ")
+    
+  )
+
+;; -----------------------------------------------------------------
+
+)
