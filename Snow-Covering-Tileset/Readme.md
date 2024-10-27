@@ -26,9 +26,9 @@
 
 * Bonus_util.nut now pre-loads the 5-coins sprite on entering a level (i think it does, still needs testing)
 
-* Fixed the warning spam regarding autotile masks in all packed snow tilesets
-
 * Removed unnecessary attribute and data sections
+
+* Fixed the warning spam regarding autotile masks in all packed snow tilesets
 
   ![image](https://github.com/user-attachments/assets/c3104a18-932d-4af7-aa23-a9525bfed291)
 
