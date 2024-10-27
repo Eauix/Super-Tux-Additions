@@ -30,6 +30,9 @@
 
   ![image](https://github.com/user-attachments/assets/c3104a18-932d-4af7-aa23-a9525bfed291)
 
+## Known Issues:
+* Hitting a 5-coins silver block with buttjump will give you 9 coins instead, this is because of https://github.com/SuperTux/supertux/issues/3079
+
 <hr>
 
 ## Snow Covering Tileset v8.1.1
