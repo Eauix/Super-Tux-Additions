@@ -423,7 +423,7 @@
   
   (autotileset
     (name "packed_snow_holes")
-    (default 11)
+    (default 55018)
     
     ;; CENTER
     (autotile
@@ -1380,7 +1380,7 @@
   
   (autotileset
     (name "shaded_packed_snow_holes")
-    (default 11)
+    (default 55018)
     
     ;; CENTER
     (autotile
