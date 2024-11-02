@@ -6,6 +6,8 @@
 
   ![image](https://github.com/user-attachments/assets/31b9c7fd-438e-47de-861f-123c94c18a77)
 
+* The files weren't renamed because the update is a complement to the last one
+
 <hr>
 
 # Previous Updates:
