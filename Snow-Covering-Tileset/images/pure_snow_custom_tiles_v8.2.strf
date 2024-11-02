@@ -15,8 +15,9 @@
 ;;    src/tile.cpp, unisolid is 3 not 2
 
 ;; SNOW COVERING TILESET + EXTRA BONUS + BETTER WATER
-;; LAST CUSTOM TILE ID: 55442
-;; SKIPPED TILE IDS: 55393, 55394, 55426-55434
+;; VERSION: 8.2A
+;; LAST CUSTOM TILE ID: 55452
+;; DEPRECATED TILE IDS: 55393, 55394, 55426-55434, 55443-55447
 
 (supertux-tiles
   (autotileset
@@ -107,7 +108,7 @@
       55024 55028 55034 55035
       55037 55068 55065 55322
       55033 55084 55081 55040
-      55073 55076 0     0
+      55073 55076 55449 55450
       55323 55324 55325 55326
       55327 55328 55329 55330
       55331 55332 55333 55334
@@ -227,7 +228,7 @@
       55138 55134 55140 55136
       55339 55340 55341 55342
       55343 55344 55345 55346
-      55141 55347 0     0
+      55141 55347 55451 55452
       
       55348 55349 55350 55351
       55352 55353 55354 55355
@@ -544,6 +545,20 @@
       49 67
     )
     (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v08_extra3.png")
+  )
+  
+  (tiles
+    (width 2)
+    (height 2)
+    (ids
+      55449 55450
+      55451 55452
+    )
+    (attributes
+      1 1
+      1 1
+    )
+    (images "tiles/_custom/snowcovering_by_eauix/pure_snow_v08_extra4.png")
   )
   
   (tiles

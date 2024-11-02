@@ -3,6 +3,7 @@
 ;; Supertux AutoTiles Configuration
 ;;
 ;; CUSTOM AUTOTILES FOR THE SNOW COVERING TILESET
+;; VERSION 8.2A
 ;;
 
 (supertux-autotiles
@@ -619,12 +620,32 @@
       (mask "*0*00*0*")
     )
     
-    ;; CORNER THIN BOTTOM CENTER
+    ;; CORNER THIN BOTTOM CENTER HIGH-HIGH
     (autotile
       (id 55037)
       (solid #t)
       (mask "0*000111")
-      (mask "*0*00111")
+    )
+        
+    ;; CORNER THIN BOTTOM CENTER LOW-LOW
+    (autotile
+      (id 55040)
+      (solid #t)
+      (mask "10100111")
+    )
+            
+    ;; CORNER THIN BOTTOM CENTER HIGH-LOW
+    (autotile
+      (id 55068)
+      (solid #t)
+      (mask "00100111")
+    )
+                
+    ;; CORNER THIN BOTTOM CENTER LOW-HIGH
+    (autotile
+      (id 55065)
+      (solid #t)
+      (mask "10000111")
     )
     
     ;; CORNER THIN "C"
@@ -678,14 +699,14 @@
     
     ;; CORNER "f"
     (autotile
-      (id 55321)
+      (id 55450)
       (solid #t)
       (mask "01100111")
     )
     
     ;; CORNER "1"
     (autotile
-      (id 55320)
+      (id 55449)
       (solid #t)
       (mask "11000111")
     )
@@ -695,7 +716,14 @@
       (id 55038)
       (solid #t)
       (mask "01000110")
-      (mask "*0*00110")
+      (mask "00*00110")
+    )
+        
+    ;; CORNER THIN LOW BOTTOM RIGHT
+    (autotile
+      (id 55041)
+      (solid #t)
+      (mask "10*00110")
     )
     
     ;; CORNER THIN BOTTOM LEFT
@@ -703,7 +731,14 @@
       (id 55039)
       (solid #t)
       (mask "01000011")
-      (mask "*0*00011")
+      (mask "*0000011")
+    )
+        
+    ;; CORNER THIN LOW BOTTOM LEFT
+    (autotile
+      (id 55042)
+      (solid #t)
+      (mask "*0100011")
     )
     
     ;; CORNER BOTTOM RIGHT
@@ -711,8 +746,13 @@
       (id 55020)
       (solid #t)
       (mask "0**0111*")
+    )
+        
+    ;; CORNER LOW BOTTOM RIGHT
+    (autotile
+      (id 55022)
+      (solid #t)
       (mask "10*0111*")
-      
     )
     
     ;; CORNER BOTTOM LEFT
@@ -720,6 +760,12 @@
       (id 55021)
       (solid #t)
       (mask "**010*11")
+    )
+        
+    ;; CORNER LOW BOTTOM LEFT
+    (autotile
+      (id 55023)
+      (solid #t)
       (mask "*0110*11")
     )
     
@@ -782,7 +828,15 @@
     (autotile
       (id 55013)
       (solid #f)
-      (mask "*0***011")
+      (mask "*00**011")
+      (mask "*01*1011")
+    )
+    
+    ;; DECO LOW TOP LEFT
+    (autotile
+      (id 55001)
+      (solid #f)
+      (mask "*01*0011")
     )
     
     ;; DECO TOP CENTER
@@ -793,15 +847,50 @@
 				(weight 0.5)
 			)
       (solid #f)
-      (mask "*0***111")
+      (mask "000**111")
+      (mask "00**1111")
+      (mask "*001*111")
+      (mask "*0*11111")
+    )
+    
+    ;; DECO TOP CENTER TRANSITION A
+    (autotile
+      (id 55009)
+      (solid #f)
+      (mask "1000*111")
+      (mask "10101111")
+    )
+    
+    ;; DECO TOP CENTER TRANSITION B
+    (autotile
+      (id 55011)
+      (solid #f)
+      (mask "001*0111")
+      (mask "10110111")
+    )
+    
+    ;; DECO TOP CENTER TRANSITION C
+    (autotile
+      (id 55016)
+      (solid #f)
+      (mask "10100111")
     )
     
     ;; DECO TOP RIGHT
     (autotile
       (id 55015)
       (solid #f)
-      (mask "*0***110")
+      (mask "00***110")
+      (mask "10*1*110")
     )
+    
+    ;; DECO LOW TOP RIGHT
+    (autotile
+      (id 55003)
+      (solid #f)
+      (mask "10*0*110")
+    )
+    
     
     ;; DECO TOP THIN
     (autotile
