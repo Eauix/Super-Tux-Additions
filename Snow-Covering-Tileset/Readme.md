@@ -1,8 +1,8 @@
 # Snow Covering Tileset v8.2a
 ## Changelog:
 
-* Added 4 new corner tiles for the `packed_snow_high` autotileset.
-* The `packed_snow_high` autotileset now adapts better to all its suroundings, broken tiles will no longer appear when drawing with it.
+* Added 4 new corner tiles for the `packed_snow_high` autotileset
+* The `packed_snow_high` autotileset now adapts better to all its suroundings, broken tiles will no longer appear when drawing with it
 
   ![image](https://github.com/user-attachments/assets/31b9c7fd-438e-47de-861f-123c94c18a77)
 
@@ -14,9 +14,9 @@
 ## Snow Covering Tileset v8.2
 ## Changelog:
 
-* All the packed snow tilesets now share the same default tile ID, as the game supports multiple autotilesets per tile now
+* All the packed snow autotilesets now share the same default tile ID, as the game supports multiple autotilesets per tile now
 
-* Deprecated the auxiliary tiles used for packed snow autotileset variants and other tilesets' hole variants
+* Deprecated the auxiliary tiles used for packed snow autotileset variants and other tilesets' hole variants, as they are no longer necessary
 
   ![pure_snow_v08_aux](https://github.com/user-attachments/assets/cf4eb356-6744-4c27-a607-5a7c959b3683)
   ![pure_snow_v08_red_e](https://github.com/user-attachments/assets/dfbc5893-0065-42b8-8f97-c2c3f4ed4531)
