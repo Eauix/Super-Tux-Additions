@@ -10,4 +10,4 @@ Note: All the music present in this add-on are not my property. The respective a
 Also, the graphics used in the worldmap tileset are borrowed from Industrial Island 2.
 
 ## Note:
-This add-on contains outdated Industrial Island 2 assets, which could cause conflicts with the current version's files. I recommend didabling or uninstalling Eauix's Test Collection if you want to play Industrial Island 2 without glitches.
+This add-on contains outdated Industrial Island 2 assets, which could cause conflicts with the current version's files. I recommend disabling or uninstalling Eauix's Test Collection if you want to play Industrial Island 2 without glitches.
