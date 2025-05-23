@@ -8,3 +8,6 @@ So, as far as I can tell, I won't be able to start nor to finish any of my plann
 Note: All the music present in this add-on are not my property. The respective authors are listed in the Credits.
 
 Also, the graphics used in the worldmap tileset are borrowed from Industrial Island v2.
+
+## Note:
+This add-on contains outdated Industrial Island II assets, which could cause conflicts with the current version's files. I recommend didabling or uninstalling Eauix's Test Collection if you want to play Industrial Island II without glitches.
